@@ -1,0 +1,251 @@
+
+#skills{
+    border: 2px solid red;
+    width: 99vw;
+    height: 95vh;
+    border: 2px solid red;
+    margin-left: -0.5vw;
+    position: relative;
+
+}
+
+#skills_cercal{
+    background-image: url("../images/ACCL-Unreal-Engine.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+    position: absolute;
+}
+
+@keyframes unreal {
+    100%{
+        width: 250px;
+        height: 250px;
+        stroke-dashoffset: 290;
+    }
+}
+#cir{
+    animation: unreal 2s linear forwards;
+}
+
+@keyframes java {
+    100%{
+        width: 250px;
+        height: 250px;
+        stroke-dashoffset: 170;
+    }
+}
+#cire{
+    animation: java 2s linear forwards;
+
+}
+
+
+
+circle{
+
+    display: none;
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width:15px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+
+}
+
+@keyframes anim {
+    100%{
+        width: 250px;
+        height: 250px;
+        stroke-dashoffset: 290;
+    }
+}
+#circle5{
+    animation: web 2s linear forwards;
+}
+@keyframes web {
+    100%{
+        width: 250px;
+        height: 250px;
+        stroke-dashoffset: 260;
+    }
+}
+
+#circle4{
+    animation: ccc 2s linear forwards;
+}
+@keyframes ccc {
+    100%{
+        width: 250px;
+        height: 250px;
+        stroke-dashoffset: 350;
+    }
+}
+
+#circle6{
+    animation: js 2s linear forwards;
+}
+@keyframes js {
+    100%{
+        width: 250px;
+        height: 250px;
+        stroke-dashoffset: 250;
+    }
+}
+
+#circle7{
+    animation: css 2s linear forwards;
+}
+@keyframes css {
+    100%{
+        width: 250px;
+        height: 250px;
+        stroke-dashoffset: 210;
+    }
+}
+
+#unreal_svg{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+#java_svg{
+    /*margin-left: 20px;*/
+    /*top: -160px;*/
+    /*left: 300px;*/
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+#java_skills_cercal{
+
+    position: absolute;
+    background-image: url("../images/java.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+}
+
+#sql_svg{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+#sql_skills_cercal{
+    position: absolute;
+    background-image: url("../images/mysql.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+}
+
+#c\+\+_svg{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+#c\+\+_skills_cercal{
+    position: absolute;
+    background-image: url("../images/c-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+}
+
+#web_svg{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    stop-color: red;
+}
+#web_skills_cercal{
+    position: absolute;
+    background-image: url("../images/ux.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+}
+#js_svg{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    stop-color: red;
+}
+#js_skills_cercal{
+    position: absolute;
+    background-image: url("../images/java-script.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+}
+
+#css_svg{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    stop-color: red;
+}
+#css_skills_cercal{
+    position: absolute;
+    background-image: url("../images/css.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+}
+
+/*======================================Skills Content Start===========================*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+#show_off>#name {
+    filter: blur(1px) contrast(1.6);
+    font-size: 80px;
+    font-family: 'Concert One', cursive;
+    color: red;
+    position: absolute;
+    z-index: 1;
+    left: 30.5vw;
+    filter: url(#noise);
+    /*white-space: nowrap;*/
+}
+#show_off>svg {
+    display: none;
+}
+canvas {
+
+    border-bottom: 5px solid red;
+    filter: url(#noise);
+}

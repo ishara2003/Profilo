@@ -1,0 +1,11 @@
+@media all and (max-width: 1000px){
+    #abc{
+        display: none;
+    }
+}
+
+@media all  and (max-width: 1200px){
+    #navbar>ul>li{
+        display: none;
+    }
+}

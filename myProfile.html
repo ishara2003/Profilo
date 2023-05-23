@@ -20,12 +20,21 @@
   <meta charset="UTF-8">
   <title>My Profile 02</title>
 
-  <link rel="stylesheet" href="assets/CSS/CSS.css">
+  <link id="main_CSS" rel="stylesheet" href="assets/CSS/CSS.css">
+  <link  rel="stylesheet" href="assets/CSS/Skill_.css">
+  <link  rel="stylesheet" href="assets/CSS/projects.css">
+  <link rel="stylesheet" href="assets/CSS/Media_Queries.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 <!--  <link rel="stylesheet" href="assets/boostrap/css/bootstrap-grid.css">-->
   <link rel="stylesheet" href="assets/boostrap/css/bootstrap-grid.min.css">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/boostrap/css/bootstrap.min.css">
+<!--  sroll Animation-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
   <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
 
@@ -36,52 +45,49 @@
   </style>
 
 </head>
-<body style="background: #03142a">
+<body id="abc" class="container-fluid" style="background: #010A15">
+<audio loop  src="assets/auido/thunder-124463.mp3" id="thunder" ></audio>
 
-<nav style="background-color: #03142a;position: fixed;  font-family:Roboto Thin;
-   box-shadow: rgba(5,77,77,0.64) 0px -65px 52px -28px inset;"
+
+
+<nav style=""
      id="navbar" class="navbar bg-body-tertiary px-3 mb-3">
   <a
-          style="font-size: 28px; color: greenyellow; font-style: italic;"
+          style="font-size: 28px; color: #ff0000; font-style: italic;"
           class="navbar-brand" href="#">My Profile
   </a>
 
   <ul style="margin-right: 50px" class="nav nav-pills">
 
     <li id="navbar_home" class="nav-item" style="margin-left: 35px; cursor:pointer">
-                      <a class="nav-link" href="#main_img">Home</a>
+                      <a style="color:#ff0000;" class="nav-link" href="#main_img">Home</a>
     </li>
 
     <li id="navbar_about" class="nav-item" style="margin-left: 35px; cursor:pointer">
-                      <a class="nav-link" href="#001">About Me</a>
+                      <a style="color:#ff0000;" class="nav-link" href="#001">About Me</a>
     </li>
 
-    <li id="navbar_skills" class="nav-item" style="margin-left: 35px; cursor:pointer">Skills
-      <!--                <a class="nav-link" href="#scrollspyHeading1">Orders</a>-->
+    <li id="navbar_skills" class="nav-item" style="margin-left: 35px; cursor:pointer">
+                      <a style="color:#ff0000;" class="nav-link" href="#skills">Skills</a>
     </li>
-    <li id="navbar_projects" class="nav-item" style="margin-left: 35px; cursor:pointer">My Projects</li>
+    <li id="navbar_projects" class="nav-item" style="margin-left: 35px; cursor:pointer">
+                      <a style="color:#ff0000;" class="nav-link" href="#skills">My Projects</a>
+    </li>
 
-    <li id="navbar_sports" class="nav-item" style="margin-left: 35px; cursor:pointer">Sports & Leadersips</li>
+    <li id="navbar_sports" class="nav-item" style="margin-left: 35px; cursor:pointer">
+      <a style="color:#ff0000;" class="nav-link" href="#skills">Sports & Leadersips</a>
+    </li>
 
-    <li id="navbar_contact" class="nav-item" style="margin-left: 35px; cursor:pointer">Contact Me</li>
+    <li id="navbar_contact" class="nav-item" style="margin-left: 35px; cursor:pointer">
+      <a style="color:#ff0000;" class="nav-link" href="#skills">Contact Me</a>
+    </li>
 
   </ul>
 </nav>
 
 
-<nav>
-  <div class="wrapper">
-    <div class="static-txt">I'm a</div>
-    <ul class="dynamic-txts">
-      <li><span>YouTuber</span></li>
-      <li><span>Designer</span></li>
-      <li><span>Developer</span></li>
-      <li><span>Game Developer</span></li>
-    </ul>
 
-  </div>
 
-</nav>
 
 
 <div id="image_section">
@@ -90,19 +96,57 @@
 <img id="main_img" src="assets/images/screen-0.jpg" alt="" >
 </div>
 
+
+<div id="show_off" style="width: 98vw;height: 40vh; /*border: 2px solid red;*/position: relative;top: 0.2vw;margin-bottom: 5vw;">
+
+  <div id="name">Ishara Sankalpa</div>
+
+  <svg>
+    <filter id="noise">
+      <feTurbulence baseFrequency="0.07" type="fractalNoise"  result="turbNoise" />
+      <feDisplacementMap
+              in="SourceGraphic"
+              in2="turbNoise"
+              xChannelSelector="G"
+              yChannelSelector="B"
+              scale="4"
+              result="disp"/>
+    </filter>
+  </svg>
+
+  <br>
+
+  <div class="wrapper">
+  <div class="static-txt">I'm a</div>
+  <ul class="dynamic-txts">
+    <li><span>YouTuber</span></li>
+    <li><span>Designer</span></li>
+    <li><span>Developer</span></li>
+    <li><span>Game Developer</span></li>
+  </ul>
+
+</div>
+
+  <div class="animate__flip" id="profil_photo">
+
+  </div>
+
+</div>
+
 <div class="about_me">
 
-<h1 id="001" style="
+<h1 class="animate__animated animate__bounce animate__repeat-2" id="001" style="
 /*color: #fd7e14;*/
-background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
- background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;position: absolute;
-right: 10px;
+color: #ff0000;
+ position: relative;
+right: -82vw;
+width: 14vw;
 font-family: Roboto Thin;
-top: 980px;
+top: -3vh;
 font-size: 4rem;
 margin-right: 20px;
 text-shadow: 4px 4px 8px grey;
-">About Me</h1>
+"><u>About Me</u></h1>
 
 <p id="about_me_content" style="">&emsp;&emsp;&emsp;Some will tell you it can't be done.
   They will try to trample you,<br> but do not be shocked, because the river flowing through the rocks is very beautiful.
@@ -123,63 +167,7 @@ text-shadow: 4px 4px 8px grey;
 
 <br>
 
-<div class="e&e">
-
-
-  <div class="bubbles">
-    <span style="--i:11"></span>
-    <span style="--i:12"></span>
-    <span style="--i:24"></span>
-    <span style="--i:10"></span>
-    <span style="--i:14"></span>
-    <span style="--i:23"></span>
-    <span style="--i:18"></span>
-    <span style="--i:16"></span>
-    <span style="--i:19"></span>
-    <span style="--i:20"></span>
-    <span style="--i:22"></span>
-    <span style="--i:25"></span>
-    <span style="--i:18"></span>
-    <span style="--i:21"></span>
-    <span style="--i:15"></span>
-    <span style="--i:13"></span>
-    <span style="--i:26"></span>
-    <span style="--i:17"></span>
-    <span style="--i:13"></span>
-    <span style="--i:28"></span>
-    <span style="--i:33"></span>
-    <span style="--i:27"></span>
-    <span style="--i:35"></span>
-    <span style="--i:32"></span>
-    <span style="--i:34"></span>
-    <span style="--i:38"></span>
-    <span style="--i:39"></span>
-    <span style="--i:5"></span>
-    <span style="--i:10"></span>
-    <span style="--i:3"></span>
-    <span style="--i:7"></span>
-    <span style="--i:9"></span>
-    <span style="--i:40"></span>
-    <span style="--i:38"></span>
-    <span style="--i:26"></span>
-    <span style="--i:43"></span>
-    <span style="--i:49"></span>
-    <span style="--i:12"></span>
-    <span style="--i:28"></span>
-    <span style="--i:21"></span>
-    <span style="--i:23"></span>
-    <span style="--i:25"></span>
-    <span style="--i:19"></span>
-    <span style="--i:16"></span>
-    <span style="--i:30"></span>
-    <span style="--i:28"></span>
-    <span style="--i:31"></span>
-    <span style="--i:23"></span>
-    <span style="--i:29"></span>
-    <span style="--i:27"></span>
-    <span style="--i:21"></span>
-
-  </div>
+<section class="e&e">
 
 
   <h3 style="text-decoration: underline;
@@ -187,21 +175,26 @@ text-shadow: 4px 4px 8px grey;
   position: relative;
   left: 750px;
   width: 500px;
-  color:#fc05d3;">Educations & Experiances
+  color:#fc0505;">Educations & Experiances
   </h3>
 
   <br>
   <br>
   <br>
 
-  <div style="margin-left: 300px;margin-bottom: 75px;" class="ijse">
+  <div data-aos="fade-right"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000" id="ijse" style="position: relative; margin-left: 50px;margin-bottom: 75px;" class="ijse">
 
 
-  <label style="font-size: 20px;color:#ffffff;margin-left: 50px"><strong><u>2022</u></strong></label>
+  <label style="position: relative;margin-top: 20px; font-size: 20px;color:#ffffff;margin-left: 50px"><strong><u>2022</u></strong></label>
   <br>
   <br>
-  <label style="margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px">Student of IJSE Panadura</label>
-  <img src="assets/images/ijse.png" alt="ijse.jpg" width="150">
+  <label style="position: relative; margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px">Student of IJSE Panadura</label>
+    <div id="ijseicon">
+
+  <img style="top: 50px;position: relative;" src="assets/images/ijse.png" alt="ijse.jpg" width="150">
+    </div>
   </div>
 
   <br>
@@ -210,13 +203,21 @@ text-shadow: 4px 4px 8px grey;
   <br>
   <br>
 
-<div style="margin-left: 1000px;margin-bottom: 75px;" class="dominos">
-  <img src="assets/images/XvUsfIo-WJPqWRKW.jpeg" alt="" width="150">
+<div data-aos="fade-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" style="position: relative;margin-left: 1200px;margin-bottom: 75px;" class="dominos">
+
+  <div id="dominosIcone">
+
+  </div>
+
+
   <label style="font-size: 20px;
   color:#ffffff;
-  margin-left: 50px;
+  margin-left: 250px;
   position: relative;
-  top: -50px;
+  top: -200px;
+  margin-top: 75px;
 "><strong><u>2021</u></strong></label>
   <br>
   <label style="font-size: 26px;
@@ -224,8 +225,8 @@ text-shadow: 4px 4px 8px grey;
   margin-left: 30px;
   margin-right: 100px;
    position: relative;
-  top: -50px;
-  left: 175px;
+  top: -170px;
+  left: 200px;
 ">Employee Of Dominose in Havelock</label>
 
 </div>
@@ -235,12 +236,18 @@ text-shadow: 4px 4px 8px grey;
   <br>
 
 
-  <div style="margin-left: 300px;margin-bottom: 75px;" class="amari">
-    <label style="font-size: 20px;color:#ffffff;margin-left: 50px;"><strong><u>2020</u></strong></label>
+  <div data-aos="fade-right"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000" style="position: relative;margin-left: 50px;margin-bottom: 75px;" class="amari">
+    <label style="position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;top: 1vw;"><strong><u>2020</u></strong></label>
     <br>
     <br>
-    <label  style="margin-right:50px; font-size: 26px;color:#33ffc2;margin-left: 30px">Trainee Barker in Amari Hotel</label>
-    <img src="assets/images/image.jpg" alt="" width="150">
+    <label  style="position: relative;margin-right:50px; font-size: 26px;color:#33ffc2;margin-left: 30px;margin-top: 1vw;">Trainee Barker at Amari Hotel</label>
+
+    <div id="amariIcon">
+
+<!--    <img src="assets/images/image.jpg" alt="" width="150">-->
+    </div>
 
 
 
@@ -252,14 +259,22 @@ text-shadow: 4px 4px 8px grey;
   <br>
   <br>
 
-  <div style="margin-left: 1000px;margin-bottom: 75px;" class="slithem">
-    <img src="assets/images/LOGO-with-Name-2-3.png" alt="ijse.jpg" width="150">
+
+  <div data-aos="fade-left"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000" style="position: relative;margin-left: 1200px;margin-bottom: 75px;width: 700px;" class="slithem">
+
+    <div id="slithamIcon">
+
+<!--    <img src="assets/images/LOGO-with-Name-2-3.png" alt="ijse.jpg" width="150">-->
+    </div>
 
     <label  style="font-size: 20px;
   color:#ffffff;
-  margin-left: 50px;
+  margin-left: 250px;
   position: relative;
   top: -50px;
+  margin-top: 75px
 "><strong><u>2020</u></strong></label>
     <br>
     <br>
@@ -269,7 +284,7 @@ text-shadow: 4px 4px 8px grey;
   margin-right: 100px;
    position: relative;
   top: -50px;
-  left: 175px;
+  left: 200px;
 ">Pastry and Bakery course in SLITHM</label>
 
   </div>
@@ -277,15 +292,22 @@ text-shadow: 4px 4px 8px grey;
   <br>
   <br>
   <br>
+  <br>
+  <br>
 
 
-  <div style="margin-left: 300px;margin-bottom: 75px;" class="exam">
+  <div data-aos="fade-right"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000" style="position: relative;margin-left: 50px;margin-bottom: 75px;" class="exam">
 
-    <label style="font-size: 20px;color:#ffffff;margin-left: 50px;"><strong><u>2019</u></strong></label>
+    <label style="position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;margin-top: 20px;"><strong><u>2019</u></strong></label>
     <br>
     <br>
-    <label style="margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px">G.C.E O/L Exam Royal Collage Horana</label>
-    <img src="assets/images/7238d96e-b5797f47-gce-o_l-2019_850x460_acf_cropped.jpg" alt="" width="150">
+    <label style="position: relative;margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px">G.C.E O/L Exam Royal Collage Horana</label>
+    <div id="examIcon">
+
+<!--    <img src="assets/images/7238d96e-b5797f47-gce-o_l-2019_850x460_acf_cropped.jpg" alt="" width="150">-->
+    </div>
 
   </div>
 
@@ -295,6 +317,373 @@ text-shadow: 4px 4px 8px grey;
   <br>
   <br>
 
-</div>
+</section>
 
-<script src="assets
+
+<section id="skills">
+
+  <h1 style="
+color: red;
+position: relative;
+right: -82vw;
+width: 14vw;
+font-family: Roboto Thin;
+top: -3vh;
+font-size: 4rem;
+margin-right: 20px;
+text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
+
+  <div style="border: 2px solid red;width: 20vw;height: 30vh;margin-left: 10vw;position: relative;" id="unreal">
+
+  <h3 style="color: white;margin-left: 20px;text-align: center;">Unreal Engine</h3>
+  <div  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" id ="skills_cercal">
+
+  </div>
+
+  <svg id="unreal_svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+    <defs>
+      <linearGradient id="GradientColor">
+        <stop offset="0%" stop-color="red" />
+        <stop offset="100%" stop-color="blue" />
+      </linearGradient>
+    </defs>
+    <circle id="cir" cx="80" cy="80" r="70"  stroke-linecap="round" />
+  </svg>
+  </div>
+<!--/*=====================================================================================*/-->
+
+  <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;left: 20vw;top: -30vh;margin-left: 20vw;" id="java">
+
+    <h3 style="color: white;margin-left: 20px;text-align: center;">Java</h3>
+    <div  data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" id ="java_skills_cercal">
+
+    </div>
+
+    <svg id="java_svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="GradientColor">
+          <stop offset="0%" stop-color="blue" />
+          <stop offset="100%" stop-color="lightblue" />
+        </linearGradient>
+      </defs>
+      <circle id="cire" cx="80" cy="80" r="70"  stroke-linecap="round" />
+    </svg>
+
+  </div>
+  <!--/*=====================================================================================*/-->
+
+  <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;left: 40vw;top: -60vh;margin-left: 30vw;" id="sql">
+
+    <h3 style="color: white;margin-left: 20px;text-align: center;">MySQL</h3>
+    <div  data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" id ="sql_skills_cercal">
+
+    </div>
+
+    <svg id="sql_svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="GradientColor">
+          <stop offset="0%" stop-color="blue" />
+          <stop offset="100%" stop-color="lightblue" />
+        </linearGradient>
+      </defs>
+      <circle id="circle3" cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+
+  </div>
+  <!--/*=====================================================================================*/-->
+
+ <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;top: -40vh;margin-left: 10vw;" id="c++">
+
+    <h3 style="color: white;margin-left: 20px;text-align: center;">MySQL</h3>
+    <div  data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" id ="c++_skills_cercal">
+
+    </div>
+
+    <svg id="c++_svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="GradientColor">
+          <stop offset="0%" stop-color="blue" />
+          <stop offset="100%" stop-color="lightblue" />
+        </linearGradient>
+      </defs>
+      <circle id="circle4" cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+
+  </div>
+
+ <!--/*=====================================================================================*/-->
+
+ <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;top: -70vh;margin-left: 40vw;" id="web">
+
+    <h3 style="color: white;margin-left: 20px;text-align: center;">Web Develop</h3>
+    <div  data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" id ="web_skills_cercal">
+
+    </div>
+
+    <svg id="web_svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="GradientColor">
+          <stop offset="0%" stop-color="blue" />
+          <stop offset="100%" stop-color="lightblue" />
+        </linearGradient>
+      </defs>
+      <circle id="circle5" cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+
+  </div>
+
+ <!--/*=====================================================================================*/-->
+
+
+
+
+
+ <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;top: -100vh;margin-left: 70vw;" id="js">
+
+    <h3 style="color: white;margin-left: 20px;text-align: center;">Java Script</h3>
+    <div  data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" id ="js_skills_cercal">
+
+    </div>
+
+    <svg id="js_svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="GradientColor">
+          <stop offset="0%" stop-color="blue" />
+          <stop offset="100%" stop-color="lightblue" />
+        </linearGradient>
+      </defs>
+      <circle id="circle6" cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+
+  </div>
+
+
+
+
+<!--/*=====================================================================================*/-->
+
+
+
+
+
+ <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;top: -80vh;margin-left: 10vw;" id="css">
+
+    <h3 style="color: white;margin-left: 20px;text-align: center;">CSS</h3>
+    <div  data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" id ="css_skills_cercal">
+
+    </div>
+
+    <svg id="css_svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="GradientColor">
+          <stop offset="0%" stop-color="blue" />
+          <stop offset="100%" stop-color="lightblue" />
+        </linearGradient>
+      </defs>
+      <circle id="circle7" cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+
+  </div>
+
+
+</section>
+
+
+<section id="projects">
+
+  <h1 style="
+/*color: #fd7e14;*/
+color: #ff0000;
+ position: relative;
+right: -82vw;
+width: 14vw;
+font-family: Roboto Thin;
+top: -3vh;
+font-size: 4rem;
+margin-right: 20px;
+text-shadow: 4px 4px 8px grey;">My Projects</h1>
+
+
+</section>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/jQuerry/jquery-3.6.4.min.js"></script>
+
+
+<script>
+
+  // $(window).on('load',()=>{
+  //   alert("loaded");
+  //   $('#abc').css({"background":"red"})
+  // });
+
+
+   $('#unreal_svg').on('mouseenter',()=>{
+       console.log("mouse over");
+       $('#cir').css({"display":"block"})
+
+
+   });
+
+ $('#java_svg').on('mouseenter',()=>{
+       console.log("mouse over");
+       $('#cire').css({"display":"block"})
+
+
+   });
+
+ $('#sql_svg').on('mouseenter',()=>{
+       console.log("mouse over");
+       $('#circle3').css({"display":"block"})
+
+
+   });
+
+$('#ijse').on('mouseenter',()=>{
+       console.log("mouse over");
+       $('#ijseicon').css({"background":"black"})
+
+
+   });
+
+$('#c\\+\\+_svg').on('mouseenter',()=>{
+       console.log("mouse over");
+       $('#circle4').css({"display":"block"})
+
+
+   });
+
+
+$('#web_svg').on('mouseenter',()=>{
+       console.log("mouse over");
+       $('#circle5').css({"display":"block"})
+
+
+   });
+
+
+$('#js_svg').on('mouseenter',()=>{
+       console.log("mouse over");
+       $('#circle6').css({"display":"block"})
+
+
+   });
+
+$('#css_svg').on('mouseenter',()=>{
+       console.log("mouse over");
+       $('#circle7').css({"display":"block"})
+
+
+   });
+
+
+
+ $('#css_svg').on('mouseenter',()=>{
+
+       console.log("mouse over");
+       $('#circle7').css({"display":"block"})
+
+
+   });
+
+
+   $(function(){
+     var h = 150, w = 600;
+     var ctx = $('<canvas>').get(0).getContext('2d');
+     $('#show_off').append(ctx.canvas);
+     ctx.canvas.height = h;
+     ctx.canvas.width = w;
+     $(ctx.canvas).css({
+       position: 'absolute',
+       top: '1.5vw',
+       left:'30.2vw'
+     });
+     var Blood = function(x,y,r,s){
+       this.x = x;
+       this.y = y;
+       this.r = r;
+       this.cy = y;
+       this.speed = s;
+     };
+
+     Blood.prototype.draw = function(){
+       ctx.beginPath();
+       ctx.arc(this.x +1,this.cy,this.r,0,Math.PI*2);
+       ctx.closePath();
+       ctx.fillStyle = 'red';
+       ctx.fill();
+     };
+     var bloodDrops = [
+       new Blood( 10,65,  1,  2),
+       new Blood( 35,10,  1.3,1.5),
+       new Blood( 53,60,1.5,  1),
+       new Blood( 80,60,  2,1.7),
+       new Blood(98,65,  1.9,1.3),
+       new Blood(125,40,  1,1.3),
+       new Blood(168,64,  1.6,1.9),
+       new Blood(182,68,  1.3,1.4),
+       new Blood(208,35,  2,1.4),
+       // new Blood(222,76,1.3,1.1),
+       new Blood(251,62,1.8,0.7),
+       new Blood(288,60,1.9,1.3),
+       new Blood(325,17,1.8,1.2),
+       new Blood(365,50,1.8,1.2),
+       new Blood(380,60,1.4,0.9),
+       // new Blood(395,88,0.8,1.3),
+       new Blood(414,65,1.5,1.6),
+       new Blood(430,20,1.7,1.6),
+       new Blood(456,63,1.8,1.3),
+       new Blood(497,65,1.2,1.2),
+       new Blood(512,65,1.7,1.5),
+       new Blood(530,65,1.7,0.8),
+       new Blood(550,60,1.7,0.8),
+       new Blood(577,66,1.7,0.8),
+       new Blood(600,50,1.7,0.8),
+     ]
+     var loop = function(){
+
+       ctx.fillStyle = 'rgba(3,20,24,0.005)';
+       ctx.fillRect(5,5,w,h);
+
+       for(var i = 0; i < bloodDrops.length; ++i){
+         if (Math.random()>0.5) bloodDrops[i].cy += bloodDrops[i].speed;
+         else bloodDrops[i].cy += bloodDrops[i].speed/3;
+         if(bloodDrops[i].cy > h)
+           bloodDrops[i].cy = bloodDrops[i].y;
+         bloodDrops[i].draw();
+       }
+       requestAnimationFrame(loop);
+     };
+     loop();
+   });
+
+  // Play sound when window gets focus
+  document.getElementById("image_section").addEventListener("mousemove", function() {
+  var audio = document.getElementById("thunder");
+    console.log("lol");
+    audio.play();
+  });
+
+
+
+  AOS.init();
+
+</script>
+</body>
+</html>

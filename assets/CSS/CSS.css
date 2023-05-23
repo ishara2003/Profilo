@@ -1,14 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
 body{
     /*display: flex;*/
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: #343F4F;
+    overflow-x: hidden;
 
 }
+.dominos{
+
+    /*border: 3px solid white;*/
+    width: 700px;
+    height: 200px;
+    border-radius: 20px;
+}
+.amari{
+    /*border: 3px solid white;*/
+    width: 650px;
+    height: 200px;
+    border-radius: 20px;
+}
+.exam{
+    /*border: 3px solid white;*/
+    width: 750px;
+    height: 200px;
+    border-radius: 20px;
+}
+.slithem{
+    /*border: 3px solid white;*/
+    width: 650px;
+    height: 200px;
+    border-radius: 20px;
+}
+#ijseicon{
+
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
+    rgba(255, 0, 0, 0.12) 0px -12px 30px,
+    rgba(125, 0, 0, 0.12) 0px 4px 6px,
+    rgba(255, 0, 0, 0.17) 0px 12px 13px,
+    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 12rem;
+    border: 2px solid   red;
+    position: relative;
+    left: 408px;
+    top: -97px;
+}
+
+#amariIcon{
+
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
+    rgba(255, 0, 0, 0.12) 0px -12px 30px,
+    rgba(125, 0, 0, 0.12) 0px 4px 6px,
+    rgba(255, 0, 0, 0.17) 0px 12px 13px,
+    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+    background-image: url("../images/image.jpg");
+    background-position: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 12rem;
+    border: 2px solid   red;
+    position: relative;
+    left: 430px;
+    top: -90px;
+}
+
+#dominosIcone{
+
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
+    rgba(255, 0, 0, 0.12) 0px -12px 30px,
+    rgba(125, 0, 0, 0.12) 0px 4px 6px,
+    rgba(255, 0, 0, 0.17) 0px 12px 13px,
+    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+    background-image: url("../images/XvUsfIo-WJPqWRKW.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 12rem;
+    border: 2px solid   red;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+
+#slithamIcon{
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
+    rgba(255, 0, 0, 0.12) 0px -12px 30px,
+    rgba(125, 0, 0, 0.12) 0px 4px 6px,
+    rgba(255, 0, 0, 0.17) 0px 12px 13px,
+    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+    background-image: url("../images/LOGO-with-Name-2-3.png");
+    background-position: left;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 12rem;
+    border: 2px solid   red;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+#examIcon{
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
+rgba(255, 0, 0, 0.12) 0px -12px 30px,
+rgba(125, 0, 0, 0.12) 0px 4px 6px,
+rgba(255, 0, 0, 0.17) 0px 12px 13px,
+rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+    background-image: url("../images/7238d96e-b5797f47-gce-o_l-2019_850x460_acf_cropped.jpg");
+    background-position: center top;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 12rem;
+    border: 2px solid   red;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+
+
+.ijse{
+    /*border: 3px solid white;*/
+    width: 650px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+#ijse:hover{
+    position: relative;
+    background: #5b0808;
+    width: 650px;
+    height: 200px;
+    border-radius: 20px;
+    /*opacity: 90%;*/
+}
 #navbar{
+    background-color: #03142a;
+    position: fixed;
+    font-family: Roboto Thin, serif;
+    box-shadow: rgba(5,77,77,0.64) 0px -65px 52px -28px inset;
     z-index: 10;
     width: 99.8vw;
+    height: 8vh;
     left: -5px;
 }
 /*nav{
@@ -22,7 +168,7 @@ body{
     margin-left: 0;
     z-index: 99999;
 }*/
-#home{
+/*#home{
     left: 0;
 }
 
@@ -44,14 +190,14 @@ left: 636px;
 
 #sports{
     right: 318px;
-}
+}*/
 
 
 #image_section{
-    width: 1903px;
+    width: 99.3vw;
     position: relative;
     height: 920px;
-    top: -150px;
+    /*top: -150px;*/
     background: black;
 
 }
@@ -66,14 +212,17 @@ left: 636px;
 }
 
 #about_me_content{
-    top: 0px;
     margin-left: 50px;
     font-size: 28px;
     color: white;
     font-family: "Roboto Thin", emoji;
 
 }
-
+.about_me{
+    position: relative;
+    top: 3vw;
+    margin-bottom: 3.5vw;
+}
 .nav-item{
     font-family: "Roboto Thin";
 
@@ -82,59 +231,20 @@ left: 636px;
     color: #ffffff;
 
 }
+
 .nav-item:hover{
-    border-bottom: #9a69ea solid medium;
+    border-bottom: #7e0000 solid medium;
     border-bottom-style: double;
     color: #1a1e21;
 }
 .btn_cv{
     position: relative;
-    left: 1450px;
-    top: -50px;
-    width: 200px;
+    left: 76vw;
+    top: -5vh;
+    width: 10vw;
 }
 
-/*==============================Bubbles Starts=============================================*/
 
-.e\&e{
-    position: relative;
-    overflow: hidden;
-
-}
-.bubbles{
-    position: relative;
-    display: flex;
-}
-
-.bubbles span{
-    z-index: -1;
-    position: relative;
-    width: 30px;
-    height: 30px;
-    background: #4fc3dc;
-    margin: 0 4px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44,
-    0 0 50px #4fc3dc,
-0 0 100px #4fc3dc;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(120s / var(--i));
-
-}
-.bubbles span:nth-child(even){
-    background: rgba(215, 53, 2, 0.85);
-    box-shadow: 0 0 0 10px rgba(215, 53, 2, 0.3),0 0 50px rgb(255, 117, 0),0 0 100px #fac000;
-}
-
-@keyframes animate {
-    0%{
-        transform: translateY(1638px)scale(0);
-    }
-    100%{
-        transform: translateY(-10vh)scale(1);
-    }
-}
-/*==============================Bubbles Ends=============================================*/
 
 
 
@@ -161,9 +271,7 @@ left: 636px;
     height: 100%;
     background-image: url("../images/lightning-strikes-on-trees-4k-q4.jpg");
     background-size: cover;
-    /*top: -100px;*/
-    /*transform: rotate(180deg);*/
-    animation: lightining 8s linear infinite;
+    animation: lightining 9s linear infinite;
     opacity: 0.5;
 
 }
@@ -189,6 +297,10 @@ left: 636px;
     }
     35%{
         opacity: 0.6;
+    }37%{
+        opacity: 0.6;
+    }38%{
+        opacity: 0.6;
     }
     100%{
         opacity: 0;
@@ -200,40 +312,41 @@ left: 636px;
 
 /*==============================Dynamic Typing Start=============================================*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*box-sizing: border-box;*/
+    /*font-family: 'Poppins', sans-serif;*/
 }
 
 .wrapper{
+    left: 0;
     z-index: 5;
     display: flex;
     position: relative;
-    top: 615px;
+    top: 150px;
     width: 50vw;
-    margin-left: 150px;
+
 }
 .wrapper .static-txt{
-    color: #ffffff;
-    font-size: 90px;
+    color: #504a4a;
+    font-size: 85px;
     font-weight: 400;
     text-shadow: 4px 4px 8px grey;
 }
 .wrapper .dynamic-txts{
     margin-top: 80px;
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     height: 90px;
     line-height: 90px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 .dynamic-txts li{
     list-style: none;
     text-shadow: 4px 4px 8px grey;
-    color: #FC6D6D;
-    font-size: 80px;
+    color: #911010;
+    font-size: 75px;
     font-weight: 500;
     position: relative;
     top: 0;
@@ -247,21 +360,21 @@ left: 636px;
 .dynamic-txts li span{
     position: relative;
     margin: 5px 0;
-    line-height: 90px;
+    line-height: 87px;
 }
 .dynamic-txts li span::after{
     content: "";
     position: absolute;
     left: 0;
-    height: 101%;
-    width: 101%;
-    background: #000000;
-    border-left: 2px solid #000000;
+    height: 105%;
+    width: 105%;
+    background: #010A15;
+    border-left: 2px solid black;
     animation: typing 3s steps(10) infinite;
 }
 @keyframes typing {
     40%, 60%{
-        left: calc(100% + 30px);
+        left: calc(100% + 10px);
     }
     100%{
         left: 0;
@@ -269,3 +382,120 @@ left: 636px;
 }
 
 /*==============================Dynamic Typing Ends=============================================*/
+
+
+
+/*==============================Show_Off Starts=============================================*/
+
+
+#profil_photo{
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 54px 55px ,
+    rgba(255, 0, 0, 0.12) 0px -12px 30px,
+    rgba(125, 0, 0, 0.12) 0px 4px 6px,
+    rgba(255, 0, 0, 0.17) 0px 12px 13px,
+    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+    background-image: url("../images/IMG_20210424_154026.jpg");
+    background-size: cover;
+    /*transform: rotate(10deg);*/
+    width: 15vw;
+    height: 30vh;
+    border-radius: 12rem;
+    border: 2px solid white;
+    position: absolute;
+    right: 60px;
+    top: 43px;
+animation: rotate 10s infinite;
+
+}@keyframes rotate {
+    0%{
+        background-image: url("../images/IMG_20210424_154026.jpg");
+        background-size: cover;
+        /*transform: rotateY(120deg);*/
+    }
+     10%{
+        background-image: url("../images/My2.5.jpg");
+        background-size: cover;
+        transform: rotateY(180deg);
+    }
+    20%{
+        background-position: right;
+        background-image: url("../images/My03.jpg");
+        background-size: cover;
+        transform: rotateY(360deg);
+    }
+
+    30%{
+        background-position: left top ;
+        background-image: url("../images/My06.jpg");
+        background-size: cover;
+        transform: rotateY(540deg);
+
+    }
+     40%{
+        background-position: bottom;
+        background-image: url("../images/My05.jpg");
+        background-size: cover;
+        transform: rotateY(700deg);
+
+    }
+    50%{
+        background-image: url("../images/batman-joker-hd--wallpaper.jpg");
+        background-size: cover;
+        transform: rotateY(860deg);
+
+
+    }
+
+    60%{
+        background-image: url("../images/why_so_serious.jpg");
+        background-position: bottom center;
+        background-size: cover;
+        transform: rotateY(-700deg);
+
+    }
+
+
+ 70%{
+        background-image: url("../images/why_so_serious.jpg");
+        background-size: cover;
+     background-position:center;
+     transform: rotateY(-540deg);
+
+    }
+
+
+ 80%{
+        background-image: url("../images/why_so_serious.jpg");
+        background-size: cover;
+     background-position:center;
+        transform: rotateY(-360deg);
+
+    }
+
+
+90%{
+        background-image: url("../images/why_so_serious.jpg");
+        background-size: cover;
+    background-position:center;
+        transform: rotateY(-180deg);
+
+    }
+
+
+99%{
+    background-image: url("../images/IMG_20210424_154026.jpg");
+    background-size: cover;
+    background-position:center;
+        transform: rotateY(0deg);
+
+    }
+    100%{
+        background-image: url("../images/IMG_20210424_154026.jpg");
+        background-size: cover;
+    }
+}
+/*==============================Show_off Ends=============================================*/
+
+
+

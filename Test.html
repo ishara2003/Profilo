@@ -11,11 +11,102 @@
         #header-title {
             color: green;
         }
+
+        div{
+            width: 400px;
+            height: 400px;
+            border: 2px solid red;
+            animation: anim 2s forwards;
+            transition-duration: 2s;
+        }
+
+        div:hover{
+            width: 700px;
+            height: 700px;
+            border: 2px solid green;
+        }
+@keyframes anim {
+    0%{
+
+    }
+    100%{
+
+    }
+}
+
+#line{
+    height: 2vh;
+    width: 1vw;
+    position: absolute;
+    transform: rotate(-40deg);
+    animation: line 5s infinite ;
+
+
+}
+@keyframes line {
+
+    0%{
+        width: 0vw;
+    }
+    50%{
+    width: 20vw;
+
+        /*border-radius: 5px;*/
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 2px solid red;
+        background: red;
+
+    }
+
+}
+
+
     </style>
 </head>
 <body>
+
+
+<div></div>
+
 <h1 class="page-title">Welcome to my web page!</h1>
 <h1 id="header-title">This is the header title.</h1>
 <p>This is some text.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="" id="line"></div>
+
+
+
+
 </body>
 </html>
