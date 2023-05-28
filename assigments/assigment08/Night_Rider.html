@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Night_Rider</title>
+
+    <style>
+        #rider{
+            border: 2px solid green;
+            width: 1000px;
+            height: 50px;
+            inset: 0;
+            margin: auto;
+            position: absolute;
+            display: flex;
+
+        }
+        .all{
+            position: relative;
+            width: 150px;
+            height: 50px;
+            border: 2px solid red;
+        }
+    </style>
+
+</head>
+<body style="background: black;">
+
+<audio id="audio" src="Knight Rider Sms ! Knight Rider ! Theme.mp3"></audio>
+
+<section class="night" id="rider">
+
+    <div class="all" id="one"></div>
+    <div class="all" id="two"></div>
+    <div class="all" id="three"></div>
+    <div class="all" id="fore"></div>
+    <div class="all" id="five"></div>
+    <div class="all" id="six"></div>
+    <div class="all" id="sevan"></div>
+
+</section>
+
+<button id="start">start</button>
+<button id="stop">stop</button>
+
+<script src="assets/jQuerry/jquery-3.6.4.min.js"></script>
+
+<script !src="">
+
+
+
+    var $all = $('.all');
+    var num=1;
+    var direction='Right';
+    var interval;
+
+    function updatelight() {
+        $('.all').css({background:"white"});
+
+        $all[num].style.background="red";
+
+        if(num>0){
+            $all[num -1].style.background="pink";
+        }
+
+        if(num<6){
+            $all[num +1].style.background="pink";
+        }
+
+        if(num===6){
+            direction='Left';
+        }
+
+        if(num===0){
+            direction='RIGHT';
+        }
+
+        if(direction==='RIGHT'){
+        num++;
+
+        }else {
+            num--;
+        }
+
+
+
+    }
+    $('#start').on('click',()=>{
+        clearInterval(interval);
+$('#audio')[0].play()
+         interval = setInterval(updatelight,100);
+    });
+
+
+    $('#stop').on('click',()=>{
+        $('#audio')[0].pause();
+        clearInterval(interval);
+    });
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
