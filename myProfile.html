@@ -22,8 +22,9 @@
 
   <link id="main_CSS" rel="stylesheet" href="assets/CSS/CSS.css">
   <link  rel="stylesheet" href="assets/CSS/Skill_.css">
-  <link  rel="stylesheet" href="assets/CSS/projects.css">
+  <link  rel="stylesheet" href="assets/CSS/My_Projects.css">
   <link rel="stylesheet" href="assets/CSS/Media_Queries.css">
+  <link rel="stylesheet" href="assets/CSS/Contact.css">
   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 
@@ -45,10 +46,8 @@
   </style>
 
 </head>
-<body id="abc" class="container-fluid" style="background: #010A15">
-<audio loop  src="assets/auido/thunder-124463.mp3" id="thunder" ></audio>
 
-
+<body id="abc" class="container-fluid" style="background: #410557">
 
 <nav style=""
      id="navbar" class="navbar bg-body-tertiary px-3 mb-3">
@@ -60,40 +59,55 @@
   <ul style="margin-right: 50px" class="nav nav-pills">
 
     <li id="navbar_home" class="nav-item" style="margin-left: 35px; cursor:pointer">
-                      <a style="color:#ff0000;" class="nav-link" href="#main_img">Home</a>
+                      <a style="color:#23e800;" class="nav-link" href="#main_img">Home</a>
     </li>
 
     <li id="navbar_about" class="nav-item" style="margin-left: 35px; cursor:pointer">
-                      <a style="color:#ff0000;" class="nav-link" href="#001">About Me</a>
+                      <a style="color:#23e800;" class="nav-link" href="#001">About Me</a>
     </li>
 
     <li id="navbar_skills" class="nav-item" style="margin-left: 35px; cursor:pointer">
-                      <a style="color:#ff0000;" class="nav-link" href="#skills">Skills</a>
+                      <a style="color:#23e800;" class="nav-link" href="#skills">Skills</a>
     </li>
     <li id="navbar_projects" class="nav-item" style="margin-left: 35px; cursor:pointer">
-                      <a style="color:#ff0000;" class="nav-link" href="#skills">My Projects</a>
+                      <a style="color:#23e800;" class="nav-link" href="#skills">My Projects</a>
     </li>
 
     <li id="navbar_sports" class="nav-item" style="margin-left: 35px; cursor:pointer">
-      <a style="color:#ff0000;" class="nav-link" href="#skills">Sports & Leadersips</a>
+      <a style="color:#23e800;" class="nav-link" href="#skills">Sports & Leadersips</a>
     </li>
 
     <li id="navbar_contact" class="nav-item" style="margin-left: 35px; cursor:pointer">
-      <a style="color:#ff0000;" class="nav-link" href="#skills">Contact Me</a>
+      <a style="color:#23e800;" class="nav-link" href="#skills">Contact Me</a>
     </li>
 
   </ul>
 </nav>
 
-
-
-
-
-
 <div id="image_section">
-  <div class="rain"></div>
-  <div class="lightining"></div>
-<img id="main_img" src="assets/images/screen-0.jpg" alt="" >
+  <img style="position:absolute;top: 100vh;transform: rotate3d(-32,119,72,-15deg);" src="assets/images/laugh02.png" alt="">
+
+  <p style="z-index: 1;
+color: white;
+position:relative;
+top: 10vw;
+left: 5vw;
+font-size: 3rem;
+">
+    <span style="font-size: 4rem">W</span>hy
+    <span style="font-size: 4rem">S</span>o
+    <span style="font-size: 4rem">S</span>erious
+    <span style="font-size: 9rem" >!</span></p>
+
+
+  <p style="z-index: 1;
+color: white;
+position:relative;
+top: 13vw;
+left: 15vw;
+font-size: 5rem;
+">Let's Put A Smile On That Face</p>
+<img style="transform: rotateY(0deg);" id="main_img" src="assets/images/half5.jpg" alt="" >
 </div>
 
 
@@ -116,7 +130,7 @@
 
   <br>
 
-  <div class="wrapper">
+<!--  <div class="wrapper">
   <div class="static-txt">I'm a</div>
   <ul class="dynamic-txts">
     <li><span>YouTuber</span></li>
@@ -125,7 +139,7 @@
     <li><span>Game Developer</span></li>
   </ul>
 
-</div>
+</div>-->
 
   <div class="animate__flip" id="profil_photo">
 
@@ -135,17 +149,19 @@
 
 <div class="about_me">
 
-<h1 class="animate__animated animate__bounce animate__repeat-2" id="001" style="
+<h1 id="001" style="
 /*color: #fd7e14;*/
-color: #ff0000;
+color: #06fc00;
  position: relative;
 right: -82vw;
-width: 14vw;
+width: 15vw;
 font-family: Roboto Thin;
 top: -3vh;
+font-weight: bolder;
 font-size: 4rem;
 margin-right: 20px;
-text-shadow: 4px 4px 8px grey;
+margin-bottom: 3vh;
+text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 "><u>About Me</u></h1>
 
 <p id="about_me_content" style="">&emsp;&emsp;&emsp;Some will tell you it can't be done.
@@ -173,9 +189,10 @@ text-shadow: 4px 4px 8px grey;
   <h3 style="text-decoration: underline;
   font-family: Roboto Thin, emoji;
   position: relative;
+  font-weight: bolder;
   left: 750px;
   width: 500px;
-  color:#fc0505;">Educations & Experiances
+  color:#01e100;">Educations & Experiances
   </h3>
 
   <br>
@@ -323,17 +340,19 @@ text-shadow: 4px 4px 8px grey;
 <section id="skills">
 
   <h1 style="
-color: red;
+color: #03ea00;
 position: relative;
 right: -82vw;
+font-weight: bolder;
 width: 14vw;
 font-family: Roboto Thin;
 top: -3vh;
 font-size: 4rem;
 margin-right: 20px;
-text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
+margin-bottom: 5vw;
+text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Skills</u></h1>
 
-  <div style="border: 2px solid red;width: 20vw;height: 30vh;margin-left: 10vw;position: relative;" id="unreal">
+  <div style="width: 20vw;height: 30vh;margin-left: 10vw;position: relative;" id="unreal">
 
   <h3 style="color: white;margin-left: 20px;text-align: center;">Unreal Engine</h3>
   <div  data-aos="flip-left"
@@ -345,8 +364,8 @@ text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
   <svg id="unreal_svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
     <defs>
       <linearGradient id="GradientColor">
-        <stop offset="0%" stop-color="red" />
-        <stop offset="100%" stop-color="blue" />
+        <stop offset="0%" stop-color="green" />
+        <stop offset="100%" stop-color="greenyellow" />
       </linearGradient>
     </defs>
     <circle id="cir" cx="80" cy="80" r="70"  stroke-linecap="round" />
@@ -354,7 +373,7 @@ text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
   </div>
 <!--/*=====================================================================================*/-->
 
-  <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;left: 20vw;top: -30vh;margin-left: 20vw;" id="java">
+  <div style="width: 20vw;height: 30vh; position: relative;left: 20vw;top: -30vh;margin-left: 20vw;" id="java">
 
     <h3 style="color: white;margin-left: 20px;text-align: center;">Java</h3>
     <div  data-aos="flip-left"
@@ -376,7 +395,7 @@ text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
   </div>
   <!--/*=====================================================================================*/-->
 
-  <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;left: 40vw;top: -60vh;margin-left: 30vw;" id="sql">
+  <div style="width: 20vw;height: 30vh; position: relative;left: 40vw;top: -60vh;margin-left: 30vw;" id="sql">
 
     <h3 style="color: white;margin-left: 20px;text-align: center;">MySQL</h3>
     <div  data-aos="flip-left"
@@ -398,7 +417,7 @@ text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
   </div>
   <!--/*=====================================================================================*/-->
 
- <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;top: -40vh;margin-left: 10vw;" id="c++">
+ <div style="width: 20vw;height: 30vh; position: relative;top: -40vh;margin-left: 10vw;" id="c++">
 
     <h3 style="color: white;margin-left: 20px;text-align: center;">MySQL</h3>
     <div  data-aos="flip-left"
@@ -421,7 +440,7 @@ text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
 
  <!--/*=====================================================================================*/-->
 
- <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;top: -70vh;margin-left: 40vw;" id="web">
+ <div style="width: 20vw;height: 30vh; position: relative;top: -70vh;margin-left: 40vw;" id="web">
 
     <h3 style="color: white;margin-left: 20px;text-align: center;">Web Develop</h3>
     <div  data-aos="flip-left"
@@ -448,7 +467,7 @@ text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
 
 
 
- <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;top: -100vh;margin-left: 70vw;" id="js">
+ <div style="width: 20vw;height: 30vh; position: relative;top: -100vh;margin-left: 70vw;" id="js">
 
     <h3 style="color: white;margin-left: 20px;text-align: center;">Java Script</h3>
     <div  data-aos="flip-left"
@@ -478,7 +497,7 @@ text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
 
 
 
- <div style="border: 2px solid red;width: 20vw;height: 30vh; position: relative;top: -80vh;margin-left: 10vw;" id="css">
+ <div style="width: 20vw;height: 30vh; position: relative;top: -80vh;margin-left: 10vw;" id="css">
 
     <h3 style="color: white;margin-left: 20px;text-align: center;">CSS</h3>
     <div  data-aos="flip-left"
@@ -498,27 +517,225 @@ text-shadow: 4px 4px 8px grey;"><u>Skills</u></h1>
     </svg>
 
   </div>
-
+  <img style="position:relative;top: -130vh;left:40vw ;" src="assets/images/pngegg.png" alt="">
 
 </section>
 
-
-<section id="projects">
-
   <h1 style="
 /*color: #fd7e14;*/
-color: #ff0000;
+color: #04dc00;
  position: relative;
-right: -82vw;
-width: 14vw;
+ font-weight: bolder;
+right: -77vw;
+width: 20vw;
 font-family: Roboto Thin;
 top: -3vh;
 font-size: 4rem;
 margin-right: 20px;
-text-shadow: 4px 4px 8px grey;">My Projects</h1>
+text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Projects</u></h1>
+
+<section  style="width: 99vw;
+padding-top: 7vw;
+position: relative;
+height: 100vh;
+display:flex;
+" id="projects">
+
+
+<div id="projects_java"><h3 style="text-align: center;margin-top: -5vh;color: white;">Java Projects</h3></div>
+<div id="projects_unreal"><h3 style="text-align: center;margin-top: -5vh;color: white;">Unreal Projects</h3></div>
+<div id="projects_web"><h3 style="text-align: center;margin-top: -5vh;color: white;">Web Projects</h3></div>
 
 
 </section>
+
+<br>
+<br>
+<br>
+
+<section class="animate__animated animate__fadeIn" id="project_part02">
+  <div class="animate__animated animate__fadeIn" id="unreal_contecnt">
+
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+
+
+  </div>
+
+
+  <div class="animate__animated animate__fadeIn" id="java_contecnt">
+
+    <div class="javaspan" id="jausa">
+      <a style="text-align: center;position:relative;bottom: -33vh;font-size: 1.5rem;  color:#ffffff;"
+         href="https://github.com/ishara2003/Jausa-Constructions">Jausa Construction (Layered)</a>    </div>
+
+<div class="javaspan" id="hostal">
+  <a style="text-align: center;position:relative;bottom: -33vh;font-size: 1.5rem;  color:#ffffff;"
+     href="https://github.com/ishara2003/Hostal-Managment-System">Hostal Managment System (Layered + Hibernate)</a>
+
+    </div>
+
+
+<div  class="javaspan" id="task">
+  <a style="text-align: center;position:relative;bottom: -33vh;font-size: 1.5rem;  color:#ffffff;"
+     href="https://github.com/ishara2003/Task-Manager">Task Manage System (MVC)</a>
+
+    </div>
+
+
+  </div>
+
+   <div class="animate__animated animate__fadeIn" id="web_contecnt">
+
+    <h1 style="color:#13e73e;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+
+
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+</section>
+
+
+  <h1 style="
+  /*color: #fd7e14;*/
+  color: #06ee00;
+  margin-top: 8vh;
+  position: relative;
+  font-weight: bolder;
+  right: -60vw;
+  width: 34vw;
+  font-family: Roboto Thin;
+  top: -3vh;
+  font-size: 4rem;
+  margin-right: 20px;
+  margin-bottom: 3vw;
+  text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>Sports and Leaderships</u></h1>
+<section style="width: 99vw;height: 100%;display: flex;" id="sports">
+
+
+  <div class="sports" id="games"></div>
+  <div class="sports" id="athlatik"></div>
+
+</section>
+
+<br>
+<br>
+<br>
+
+<section style="display:none; position: relative;top: 2vw;height: 80vh;" class="animate__animated animate__fadeIn" id="sports_part02">
+
+  <div style="inset: 0;margin: auto;position:absolute;color:#ffffff;width: 60vw;height: 80vh;font-size: 2rem;" class="animate__animated animate__fadeIn" id="athlatik_contecnt">
+
+   <ul style="position: relative;margin-top: 10vh;" >
+     <li>
+       <img style="width: 150px;border-radius: 50%;" src="assets/images/wp10029541.jpg" alt="">
+       Captain of the Horana Royal Collage Volleyball team
+   </li>
+     <li>
+       <img  style="width: 150px; border-radius: 50%;" src="assets/images/photo-1579952363873-27f3bade9f55.jpeg" alt="">
+       Captain of the Horana Royal Collage Football team
+     </li>
+     <li>
+       <img  style="width: 150px;border-radius: 50%;" src="assets/images/4524574.jpg" alt="">
+       Vice Captain of the Horana Royal Collage Kabaddi team
+     </li>
+   </ul>
+
+
+  </div>
+
+
+  <div style="inset: 0;margin: auto;position:absolute;color:#ffffff;width: 98vw;height: 80vh;font-size: 2rem;" class="animate__animated animate__fadeIn" id="game_contecnt">
+
+    <img style="border-radius: 50%;width: 300px;height: 300px; margin-left: 2.5vw;" src="assets/images/671214.jpg" alt="">
+    <img style="border-radius: 50%;width: 300px;height: 300px; margin-left: 10vw;" src="assets/images/wp1854626.jpg" alt="">
+    <img style="border-radius: 50%;width: 300px;height: 300px; margin-left: 10vw;" src="assets/images/wp1809647.jpg" alt="">
+    <img style="border-radius: 50%;width: 300px;height: 300px; margin-left: 10vw;" src="assets/images/wp9717750.jpg" alt="">
+
+
+
+  </div>
+</section>
+
+<br>
+<br>
+<br>
+
+<h1 style="
+/*color: #fd7e14;*/
+color: #04dc00;
+ position: relative;
+ font-weight: bolder;
+right: -77vw;
+width: 20vw;
+font-family: Roboto Thin;
+top: -3vh;
+font-size: 4rem;
+margin-right: 20px;
+text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>Contact Me</u></h1>
+<section id="contact_me">
+
+  <footer id="fotter">
+
+    <br>
+
+        <input type="text" name="name" id="your_name" placeholder="Name">
+
+        <input type="email" name="email" id="email" placeholder="email">
+
+       <img src="assets/images/whatsapp.png" alt="" width="60" height="60">
+
+    <p style="color:#ffffff;position:relative;left: 48vw;">+94 0762283527</p>
+
+      <img style="color:#ffffff;position:relative;left: 48vw;margin-top: 5vh;" src="assets/images/phone-call.png" alt="" height="60" width="60"><br>
+
+      <p style="color:#ffffff;position:relative;left: 48vw;">+94 0762269260</p>
+
+          <textarea name="" id="txt" cols="50" rows="3"></textarea>
+
+          <img style="color:#ffffff;position:relative;left: 5vw;top: -20vh;" src="assets/images/gmail.png" alt=""width="60" height="60">
+
+          <br>
+
+          <a id="mail_link" href="sankalpaishara4@gmail.com?subject=txt">sankalpaishara4@gmail.com</a>
+
+          <br>
+
+
+      <div id="links">
+
+          <a href="https://www.youtube.com/channel/UC9dh5PIHp-hGRalv0RwnMMw">
+            <img style="margin-left: 5vw;" src="assets/images/youtube.png" alt=""width="100" height="100">
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/ishara-sankalpa-4b3810265/">
+            <img style="margin-left: 5vw;" src="assets/images/linkedin.png" alt=""width="100" height="100">
+          </a>
+
+
+          <a href="https://www.instagram.com/isharasankalpa/">
+            <img style="margin-left: 5vw;" src="assets/images/instagram.png" alt=""width="100" height="100">
+          </a>
+
+      </div>
+
+  </footer>
+
+
+</section>
+
 
 
 
@@ -528,10 +745,79 @@ text-shadow: 4px 4px 8px grey;">My Projects</h1>
 
 <script>
 
-  // $(window).on('load',()=>{
-  //   alert("loaded");
-  //   $('#abc').css({"background":"red"})
-  // });
+
+  $('#games').on('click',()=>{
+    document.getElementById("sports_part02").classList.add("animate__fadeIn");
+
+    $('#sports_part02').css({display:"block"})
+    $('#game_contecnt').css({display:"flex"});
+
+    $('#athlatik_contecnt').css({display:"none"});
+
+  });
+
+
+
+  $('#athlatik').on('click',()=>{
+    document.getElementById("sports_part02").classList.add("animate__fadeIn");
+
+    $('#sports_part02').css({display:"block"})
+    $('#athlatik_contecnt').css({display:"flex"});
+
+    $('#game_contecnt').css({display:"none"});
+
+  });
+
+
+  $('#sports_part02').on('mouseleave',()=>{
+
+    // document.getElementById("sports_part02").classList.add("animate__fadeOut");
+
+    $('#sports_part02').css({display:"none"})
+  });
+
+
+
+  $('#project_part02').on('mouseleave',()=>{
+
+    $('#project_part02').css({display:"none"})
+
+  });
+
+  $('#projects_unreal').on('click',()=>{
+    document.getElementById("project_part02").classList.add("animate__fadeIn");
+
+    $('#unreal_contecnt').css({display:"flex"});
+    $('#project_part02').css({display:"block"})
+
+
+    $('#web_contecnt').css({display:"none"});
+    $('#java_contecnt').css({display:"none"});
+
+  });
+
+
+ $('#projects_java').on('click',()=>{
+
+   $('#java_contecnt').css({display:"flex"});
+   $('#project_part02').css({display:"block"})
+
+   $('#unreal_contecnt').css({display:"none"});
+   $('#web_contecnt').css({display:"none"});
+
+ });
+
+
+$('#projects_web').on('click',()=>{
+
+  $('#web_contecnt').css({display:"flex"});
+  $('#project_part02').css({display:"block"})
+
+  $('#unreal_contecnt').css({display:"none"});
+  $('#java_contecnt').css({display:"none"});
+
+
+});
 
 
    $('#unreal_svg').on('mouseenter',()=>{
@@ -601,84 +887,6 @@ $('#css_svg').on('mouseenter',()=>{
 
 
    });
-
-
-   $(function(){
-     var h = 150, w = 600;
-     var ctx = $('<canvas>').get(0).getContext('2d');
-     $('#show_off').append(ctx.canvas);
-     ctx.canvas.height = h;
-     ctx.canvas.width = w;
-     $(ctx.canvas).css({
-       position: 'absolute',
-       top: '1.5vw',
-       left:'30.2vw'
-     });
-     var Blood = function(x,y,r,s){
-       this.x = x;
-       this.y = y;
-       this.r = r;
-       this.cy = y;
-       this.speed = s;
-     };
-
-     Blood.prototype.draw = function(){
-       ctx.beginPath();
-       ctx.arc(this.x +1,this.cy,this.r,0,Math.PI*2);
-       ctx.closePath();
-       ctx.fillStyle = 'red';
-       ctx.fill();
-     };
-     var bloodDrops = [
-       new Blood( 10,65,  1,  2),
-       new Blood( 35,10,  1.3,1.5),
-       new Blood( 53,60,1.5,  1),
-       new Blood( 80,60,  2,1.7),
-       new Blood(98,65,  1.9,1.3),
-       new Blood(125,40,  1,1.3),
-       new Blood(168,64,  1.6,1.9),
-       new Blood(182,68,  1.3,1.4),
-       new Blood(208,35,  2,1.4),
-       // new Blood(222,76,1.3,1.1),
-       new Blood(251,62,1.8,0.7),
-       new Blood(288,60,1.9,1.3),
-       new Blood(325,17,1.8,1.2),
-       new Blood(365,50,1.8,1.2),
-       new Blood(380,60,1.4,0.9),
-       // new Blood(395,88,0.8,1.3),
-       new Blood(414,65,1.5,1.6),
-       new Blood(430,20,1.7,1.6),
-       new Blood(456,63,1.8,1.3),
-       new Blood(497,65,1.2,1.2),
-       new Blood(512,65,1.7,1.5),
-       new Blood(530,65,1.7,0.8),
-       new Blood(550,60,1.7,0.8),
-       new Blood(577,66,1.7,0.8),
-       new Blood(600,50,1.7,0.8),
-     ]
-     var loop = function(){
-
-       ctx.fillStyle = 'rgba(3,20,24,0.005)';
-       ctx.fillRect(5,5,w,h);
-
-       for(var i = 0; i < bloodDrops.length; ++i){
-         if (Math.random()>0.5) bloodDrops[i].cy += bloodDrops[i].speed;
-         else bloodDrops[i].cy += bloodDrops[i].speed/3;
-         if(bloodDrops[i].cy > h)
-           bloodDrops[i].cy = bloodDrops[i].y;
-         bloodDrops[i].draw();
-       }
-       requestAnimationFrame(loop);
-     };
-     loop();
-   });
-
-  // Play sound when window gets focus
-  document.getElementById("image_section").addEventListener("mousemove", function() {
-  var audio = document.getElementById("thunder");
-    console.log("lol");
-    audio.play();
-  });
 
 
 

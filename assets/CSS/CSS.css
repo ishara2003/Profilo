@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+*{
+    font-family: "Roboto Thin", serif;
+}
 
 body{
     /*display: flex;*/
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #343F4F;
+    /*background: #343F4F;*/
     overflow-x: hidden;
 
 }
@@ -36,17 +38,16 @@ body{
     border-radius: 20px;
 }
 #ijseicon{
-
-    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
-    rgba(255, 0, 0, 0.12) 0px -12px 30px,
-    rgba(125, 0, 0, 0.12) 0px 4px 6px,
-    rgba(255, 0, 0, 0.17) 0px 12px 13px,
-    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px ,
+    rgba(39, 255, 0, 0.12) 0px -12px 30px,
+    rgba(43, 255, 0, 0.12) 0px 4px 6px,
+    rgba(40, 255, 0, 0.17) 0px 12px 13px,
+    rgba(40, 255, 0, 0.09) 0px -3px 5px;
+    border: 2px solid #36e802;
 
     width: 150px;
     height: 150px;
     border-radius: 12rem;
-    border: 2px solid   red;
     position: relative;
     left: 408px;
     top: -97px;
@@ -54,18 +55,21 @@ body{
 
 #amariIcon{
 
-    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
-    rgba(255, 0, 0, 0.12) 0px -12px 30px,
-    rgba(125, 0, 0, 0.12) 0px 4px 6px,
-    rgba(255, 0, 0, 0.17) 0px 12px 13px,
-    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+
+
+    box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px ,
+    rgba(39, 255, 0, 0.12) 0px -12px 30px,
+    rgba(43, 255, 0, 0.12) 0px 4px 6px,
+    rgba(40, 255, 0, 0.17) 0px 12px 13px,
+    rgba(40, 255, 0, 0.09) 0px -3px 5px;
+    border: 2px solid #36e802;
 
     background-image: url("../images/image.jpg");
     background-position: right;
     width: 150px;
     height: 150px;
     border-radius: 12rem;
-    border: 2px solid   red;
     position: relative;
     left: 430px;
     top: -90px;
@@ -73,11 +77,12 @@ body{
 
 #dominosIcone{
 
-    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
-    rgba(255, 0, 0, 0.12) 0px -12px 30px,
-    rgba(125, 0, 0, 0.12) 0px 4px 6px,
-    rgba(255, 0, 0, 0.17) 0px 12px 13px,
-    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px ,
+    rgba(39, 255, 0, 0.12) 0px -12px 30px,
+    rgba(43, 255, 0, 0.12) 0px 4px 6px,
+    rgba(40, 255, 0, 0.17) 0px 12px 13px,
+    rgba(40, 255, 0, 0.09) 0px -3px 5px;
+    border: 2px solid #36e802;
 
     background-image: url("../images/XvUsfIo-WJPqWRKW.jpeg");
     background-position: center;
@@ -85,7 +90,6 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 12rem;
-    border: 2px solid   red;
     position: relative;
     left: 50px;
     top: 20px;
@@ -93,11 +97,13 @@ body{
 
 
 #slithamIcon{
-    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
-    rgba(255, 0, 0, 0.12) 0px -12px 30px,
-    rgba(125, 0, 0, 0.12) 0px 4px 6px,
-    rgba(255, 0, 0, 0.17) 0px 12px 13px,
-    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+    box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px ,
+    rgba(39, 255, 0, 0.12) 0px -12px 30px,
+    rgba(43, 255, 0, 0.12) 0px 4px 6px,
+    rgba(40, 255, 0, 0.17) 0px 12px 13px,
+    rgba(40, 255, 0, 0.09) 0px -3px 5px;
+    border: 2px solid #36e802;
 
     background-image: url("../images/LOGO-with-Name-2-3.png");
     background-position: left;
@@ -105,18 +111,20 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 12rem;
-    border: 2px solid   red;
     position: absolute;
     left: 50px;
     top: 20px;
 }
 
 #examIcon{
-    box-shadow: rgba(255, 0, 0, 0.25) 0px 10px 70px ,
-rgba(255, 0, 0, 0.12) 0px -12px 30px,
-rgba(125, 0, 0, 0.12) 0px 4px 6px,
-rgba(255, 0, 0, 0.17) 0px 12px 13px,
-rgba(255, 0, 0, 0.09) 0px -3px 5px;
+
+    box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px ,
+    rgba(39, 255, 0, 0.12) 0px -12px 30px,
+    rgba(43, 255, 0, 0.12) 0px 4px 6px,
+    rgba(40, 255, 0, 0.17) 0px 12px 13px,
+    rgba(40, 255, 0, 0.09) 0px -3px 5px;
+    border: 2px solid #36e802;
+
 
     background-image: url("../images/7238d96e-b5797f47-gce-o_l-2019_850x460_acf_cropped.jpg");
     background-position: center top;
@@ -124,7 +132,6 @@ rgba(255, 0, 0, 0.09) 0px -3px 5px;
     width: 150px;
     height: 150px;
     border-radius: 12rem;
-    border: 2px solid   red;
     position: absolute;
     right: 50px;
     top: 20px;
@@ -141,64 +148,32 @@ rgba(255, 0, 0, 0.09) 0px -3px 5px;
 }
 #ijse:hover{
     position: relative;
-    background: #5b0808;
+    background: #00ff0d;
     width: 650px;
     height: 200px;
     border-radius: 20px;
     /*opacity: 90%;*/
 }
 #navbar{
-    background-color: #03142a;
+    background-color: #16032a;
     position: fixed;
     font-family: Roboto Thin, serif;
-    box-shadow: rgba(5,77,77,0.64) 0px -65px 52px -28px inset;
+    box-shadow: rgba(57, 5, 77, 0.64) 0px -65px 52px -28px inset;
     z-index: 10;
     width: 99.8vw;
     height: 8vh;
     left: -5px;
 }
-/*nav{
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    width: 99vw;
-    height: 5vh;
-    font-size: 26px;
-    padding-left: 0;
-    margin-left: 0;
-    z-index: 99999;
-}*/
-/*#home{
-    left: 0;
-}
-
-#about{
-    left: 318px;
-}
-
-#contact{
-    right: 0;
-}
-
-#skills{
-left: 636px;
-}
-
-#projects{
-    right: 634px;
-}
-
-#sports{
-    right: 318px;
-}*/
 
 
 #image_section{
+    background-image: url("../images/hahaa.jpg");
+    background-size: cover;
+    background-position: left;
     width: 99.3vw;
     position: relative;
     height: 920px;
-    /*top: -150px;*/
-    background: black;
+    left: -10px;
 
 }
 
@@ -224,7 +199,7 @@ left: 636px;
     margin-bottom: 3.5vw;
 }
 .nav-item{
-    font-family: "Roboto Thin";
+    font-family: "Roboto Thin", serif;
 
     font-size: 25px;
     font-weight: bolder;
@@ -237,6 +212,7 @@ left: 636px;
     border-bottom-style: double;
     color: #1a1e21;
 }
+
 .btn_cv{
     position: relative;
     left: 76vw;
@@ -244,174 +220,32 @@ left: 636px;
     width: 10vw;
 }
 
-
-
-
-
-/*==============================Rain Start=============================================*/
-.rain{
-    z-index: 3;
-    height: 99vh;
-    background-image: url("../images/rain.png");
-    animation: rain 0.3s linear infinite;
-}
-@keyframes rain{
-    0%{
-        background-position: 0% 0%;
-    }
-    100%{
-        background-position: 20% 100%;
-    }
-}
-.rain::before{
-    z-index: 2;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/lightning-strikes-on-trees-4k-q4.jpg");
-    background-size: cover;
-    animation: lightining 9s linear infinite;
-    opacity: 0.5;
-
-}
-
-@keyframes lightining{
-    0%{
-        opacity: 0;
-    }
-    20%{
-        opacity: 0;
-    }
-    21%{
-        opacity: 1;
-    }
-    25%{
-        opacity: 0;
-    }
-    30%{
-        opacity: 0.2;
-    }
-    31%{
-        opacity: 0.4;
-    }
-    35%{
-        opacity: 0.6;
-    }37%{
-        opacity: 0.6;
-    }38%{
-        opacity: 0.6;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-/*==============================rain Ends=============================================*/
-
-
-
-/*==============================Dynamic Typing Start=============================================*/
-
-*{
-    /*margin: 0;*/
-    /*padding: 0;*/
-    /*box-sizing: border-box;*/
-    /*font-family: 'Poppins', sans-serif;*/
-}
-
-.wrapper{
-    left: 0;
-    z-index: 5;
-    display: flex;
-    position: relative;
-    top: 150px;
-    width: 50vw;
-
-}
-.wrapper .static-txt{
-    color: #504a4a;
-    font-size: 85px;
-    font-weight: 400;
-    text-shadow: 4px 4px 8px grey;
-}
-.wrapper .dynamic-txts{
-    margin-top: 80px;
-    /*margin-left: 15px;*/
-    height: 90px;
-    line-height: 90px;
-    padding-bottom: 10px;
-    overflow: hidden;
-}
-.dynamic-txts li{
-    list-style: none;
-    text-shadow: 4px 4px 8px grey;
-    color: #911010;
-    font-size: 75px;
-    font-weight: 500;
-    position: relative;
-    top: 0;
-    animation: slide 12s steps(4) infinite;
-}
-@keyframes slide {
-    100%{
-        top: -360px;
-    }
-}
-.dynamic-txts li span{
-    position: relative;
-    margin: 5px 0;
-    line-height: 87px;
-}
-.dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 105%;
-    width: 105%;
-    background: #010A15;
-    border-left: 2px solid black;
-    animation: typing 3s steps(10) infinite;
-}
-@keyframes typing {
-    40%, 60%{
-        left: calc(100% + 10px);
-    }
-    100%{
-        left: 0;
-    }
-}
-
-/*==============================Dynamic Typing Ends=============================================*/
-
-
-
-/*==============================Show_Off Starts=============================================*/
-
-
 #profil_photo{
-    box-shadow: rgba(255, 0, 0, 0.25) 0px 54px 55px ,
-    rgba(255, 0, 0, 0.12) 0px -12px 30px,
-    rgba(125, 0, 0, 0.12) 0px 4px 6px,
-    rgba(255, 0, 0, 0.17) 0px 12px 13px,
-    rgba(255, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px ,
+    rgba(39, 255, 0, 0.12) 0px -12px 30px,
+    rgba(43, 255, 0, 0.12) 0px 4px 6px,
+    rgba(40, 255, 0, 0.17) 0px 12px 13px,
+    rgba(40, 255, 0, 0.09) 0px -3px 5px;
+    border: 2px solid #36e802;
 
     background-image: url("../images/IMG_20210424_154026.jpg");
     background-size: cover;
-    /*transform: rotate(10deg);*/
     width: 15vw;
     height: 30vh;
     border-radius: 12rem;
-    border: 2px solid white;
     position: absolute;
-    right: 60px;
-    top: 43px;
+    align-items: center;
+    right: 40.9vw;
+    top: 15vh;
 animation: rotate 10s infinite;
 
-}@keyframes rotate {
+}
+
+@keyframes rotate {
     0%{
         background-image: url("../images/IMG_20210424_154026.jpg");
         background-size: cover;
-        /*transform: rotateY(120deg);*/
+        transform: rotateY(0deg);
     }
      10%{
         background-image: url("../images/My2.5.jpg");
@@ -448,7 +282,7 @@ animation: rotate 10s infinite;
     }
 
     60%{
-        background-image: url("../images/why_so_serious.jpg");
+        background-image: url("../images/batman-joker-hd--wallpaper.jpg");
         background-position: bottom center;
         background-size: cover;
         transform: rotateY(-700deg);
@@ -456,45 +290,45 @@ animation: rotate 10s infinite;
     }
 
 
- 70%{
-        background-image: url("../images/why_so_serious.jpg");
+    70%{
+        background-image: url("../images/batman-joker-hd--wallpaper.jpg");
         background-size: cover;
-     background-position:center;
-     transform: rotateY(-540deg);
+        background-position:center;
+        transform: rotateY(-540deg);
 
     }
 
 
- 80%{
-        background-image: url("../images/why_so_serious.jpg");
+    80%{
+        background-image: url("../images/batman-joker-hd--wallpaper.jpg");
         background-size: cover;
-     background-position:center;
+        background-position:center;
         transform: rotateY(-360deg);
 
     }
 
 
-90%{
-        background-image: url("../images/why_so_serious.jpg");
+    90%{
+        background-image: url("../images/batman-joker-hd--wallpaper.jpg");
         background-size: cover;
-    background-position:center;
+        background-position:center;
         transform: rotateY(-180deg);
 
     }
 
 
-99%{
-    background-image: url("../images/IMG_20210424_154026.jpg");
-    background-size: cover;
-    background-position:center;
-        transform: rotateY(0deg);
+    100%{
+        background-image: url("../images/why_so_serious.jpg");
+        background-size: cover;
+        background-position:center;
+        transform: rotateY(-0deg);
 
     }
-    100%{
+   /* 100%{
         background-image: url("../images/IMG_20210424_154026.jpg");
-        background-size: cover;
+        background-size: cover;*/
     }
-}
+
 /*==============================Show_off Ends=============================================*/
 
 

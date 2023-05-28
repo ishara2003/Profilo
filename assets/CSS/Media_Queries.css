@@ -1,11 +1,16 @@
 @media all and (max-width: 1000px){
-    #abc{
-        display: none;
-    }
+
 }
 
 @media all  and (max-width: 1200px){
-    #navbar>ul>li{
-        display: none;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #unreal_contecnt {
+        width: 80%;
+        margin: 0 auto;
     }
+
 }

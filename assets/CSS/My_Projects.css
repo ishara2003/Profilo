@@ -1,0 +1,133 @@
+#projects_web{
+
+    width: 25vw;
+    height: 70vh;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    /*border: 2px solid greenyellow;*/
+    background-image: url("../images/photo-1461749280684-dccba630e2f6.jpeg");
+    background-size:cover;
+    background-position-x: left -11vw;
+    /*filter: blur(5px);*/
+    border-radius: 40px;
+
+}
+
+
+#projects_unreal{
+
+    width: 25vw;
+    margin-left: 5.5vw;
+    height: 70vh;
+    background-image: url("../images/3645791.jpg");
+    background-size:cover;
+    background-position-x: left -11vw;
+    /*border: 2px solid greenyellow;*/
+    border-radius: 40px;
+}
+
+
+#projects_java{
+
+    width: 25vw;
+    height: 70vh;
+    margin-top: 5vw;
+    margin-left: 7vw;
+    background-image: url("../images/HD-wallpaper-coding-code-java-programmer-black-hello-world-key-programming-quotes.jpg");
+    background-size:cover;
+    background-position-x: left -20vw;
+    /*border: 2px solid greenyellow;*/
+    /*filter: blur(5px);*/
+    border-radius: 40px;
+}
+
+#unreal_contecnt{
+    position: relative;
+    width: 99vw;
+    height: 100%;
+    display: none;
+    /*border: 2px solid red;*/
+}
+
+#java_contecnt{
+    position: relative;
+    /*display: grid;*/
+    width: 99vw;
+    height: 100%;
+    display: none;
+    /*border: 2px solid red;*/
+}
+
+#web_contecnt{
+    position: relative;
+    width: 99vw;
+    height: 100%;
+    display: none;
+    /*border: 2px solid red;*/
+}
+
+.javaspan{
+    position: relative;
+    width: 15vw;
+    height: 30vh;
+
+    /*display: none;*/
+    margin-left: 8vw;
+    /*border: 2px solid #ffffff;*/
+    border-radius: 12rem;
+}
+
+#jausa{
+    background-image: url("../images/Screenshot (75).png");
+    background-size: cover;
+}
+
+#hostal{
+    background-image: url("../images/Screenshot (76).png");
+    background-size: cover;
+    background-position: center;
+}
+
+#task{
+    background-image: url("../images/Screenshot (77).png");
+    background-size: cover;
+    background-position: center;
+}
+
+#project_part02>a:visited{
+    color: blue;
+}
+
+.sports{
+    width: 25vw;
+    margin-left: 16vw;
+    height: 70vh;
+    /*border: 2px solid greenyellow;*/
+}
+
+#athlatik{
+    background-image: url("../images/istockphoto-1184618488-612x612.jpg");
+    background-size:cover;
+    border-radius: 40px;
+    /*background-position-x: left -11vw;*/
+
+}
+
+#games{
+    background-image: url("../images/4662263.jpg");
+    background-size:cover;
+    background-position: center;
+    border-radius: 40px;
+    /*background-position-x: left -11vw;*/
+
+}
+
+li{
+    margin-bottom: 3vh;
+}
+
+section>div:hover{
+    cursor: pointer;
+}
+
+
