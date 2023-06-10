@@ -12,9 +12,106 @@ body{
     overflow-x: hidden;
 
 }
+
+#btn_view_cv{
+    left: -80px;
+    position: relative;background: #00ff04;
+    color: #ff00fb;
+    font-weight: bolder;
+}
+
+#download_cv{
+    position: relative;
+    left: -80px;
+    background: #00ff04
+}
+
+#educations{
+    text-decoration: underline;
+    font-family: Roboto Thin, emoji;
+    position: relative;
+    font-weight: bolder;
+    left: 750px;
+    width: 500px;
+    color:#01e100;
+    font-size: 1.5rem;
+}
+
+#tab_size_about{
+    display: none;
+}
+#tab_size_skills{
+    display: none;
+}
+#tab_size_projects{
+    display: none;
+}
+
+
+#projects{
+    width: 99vw;
+    padding-top: 7vw;
+    position: relative;
+    height: 100vh;
+    display:flex;
+}
+
+.jausa_link{
+    text-align: center;
+    position:relative;
+    bottom: -33vh;
+    font-size: 1.5rem;
+    color:#ffffff;
+}
+
+.games_img{
+    border-radius: 50%;width: 300px;height: 300px; margin-left: 2.5vw;
+}
+#athlatik_contecnt{
+    position:absolute;
+    color:#ffffff;
+    width: 60vw;
+    height: 80vh;
+    font-size: 2rem;
+}
+
+#sports_part02{
+    display:none; position: relative;top: 2vw;height: 80vh;
+}
+
+#tab_size_sport{display: none}
+
+#game_contecnt{
+    display: block;
+    position:relative;
+    color:#ffffff;
+    width: 98vw;
+    height: 40vh;
+    font-size: 2rem;
+    margin-bottom: 10vh;
+}
+
+
+#tab_size_contact{
+    display: none;
+    color: #04dc00;
+    position: relative;
+    font-weight: bolder;
+    right: -77vw;
+    width: 20vw;
+    font-family: Roboto Thin;
+    top: -3vh;
+    font-size: 4rem;
+    margin-right: 20px;
+    text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+}
+
 .dominos{
 
     /*border: 3px solid white;*/
+    position: relative;
+    margin-left: 1200px;
+    margin-bottom: 75px;
     width: 700px;
     height: 200px;
     border-radius: 20px;
@@ -36,6 +133,10 @@ body{
     width: 650px;
     height: 200px;
     border-radius: 20px;
+    position: relative;
+    margin-left: 1200px;
+    margin-bottom: 75px;
+    width: 650px;
 }
 #ijseicon{
     box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px ,
@@ -143,22 +244,86 @@ body{
     /*border: 3px solid white;*/
     width: 650px;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 40px;
 
 }
 #ijse:hover{
     position: relative;
-    background: #00ff0d;
+    background: #49a64f;
     width: 650px;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 40px;
     /*opacity: 90%;*/
 }
-#navbar{
+
+.dominos:hover{
+    position: relative;
+    background: #49a64f;
+    width: 650px;
+    height: 200px;
+    border-radius: 40px;
+    /*opacity: 90%;*/
+}
+
+.amari:hover{
+    position: relative;
+    background: #49a64f;
+    width: 650px;
+    height: 200px;
+    border-radius: 40px;
+    /*opacity: 90%;*/
+}
+
+.slithem:hover{
+    position: relative;
+    background: #49a64f;
+    width: 650px;
+    height: 200px;
+    border-radius: 40px;
+    /*opacity: 90%;*/
+}
+
+.exam:hover{
+    position: relative;
+    background: #49a64f;
+    width: 750px;
+    height: 200px;
+    border-radius: 40px;
+    /*opacity: 90%;*/
+}
+
+
+
+p>span{
+    font-size: 4rem;
+}
+p>span:nth-child(4){
+    font-size: 8rem;
+}
+
+#smile{
+    z-index: 1;
+    color: white;
+    position:relative;
+    top: 13vw;
+    left: 15vw;
+    font-size: 5rem;
+}
+
+#why{
+    z-index: 1;
+    color: white;
+    position:relative;
+    top: 10vw;
+    left: 5vw;
+    font-size: 3rem
+}
+
+.navbar{
     background-color: #16032a;
     position: fixed;
     font-family: Roboto Thin, serif;
-    box-shadow: rgba(57, 5, 77, 0.64) 0px -65px 52px -28px inset;
+    box-shadow: rgba(150, 8, 199, 0.64) 0px -65px 52px -28px inset;
     z-index: 10;
     width: 99.8vw;
     height: 8vh;
@@ -183,7 +348,6 @@ body{
     right: 0;
     height: 920px;
     top: 0;
-    opacity: 0.5;
 }
 
 #about_me_content{
@@ -328,6 +492,31 @@ animation: rotate 10s infinite;
         background-image: url("../images/IMG_20210424_154026.jpg");
         background-size: cover;*/
     }
+
+#show_off{
+    width: 98vw;
+    height: 40vh;
+    /*border: 2px solid red;*/position: relative;
+    top: 0.2vw;
+    margin-bottom: 5vw;
+}
+
+#c_number{
+    color:#ffffff;position:relative;left: 48vw;
+}
+#b_number{
+    color:#ffffff;position:relative;left: 48vw;
+}
+#c_num_img{
+    color:#ffffff;position:relative;left: 48vw;margin-top: 5vh;
+}
+#emal_img{
+    color:#ffffff;position:relative;left: 5vw;top: -20vh;
+}
+
+#bottam_content{
+    position: fixed;bottom: 0;width: 99vw;height: 3vh;
+}
 
 /*==============================Show_off Ends=============================================*/
 

@@ -1,16 +1,323 @@
-@media all and (max-width: 1000px){
+@media all and (max-width: 1300px) {
 
-}
+   #naw_items{
+       display: none;
+   }
 
-@media all  and (max-width: 1200px){
-
-}
-
-@media screen and (max-width: 600px) {
-
-    #unreal_contecnt {
-        width: 80%;
-        margin: 0 auto;
+    .navbar{
+        position: fixed;
+        height: 7vh;
+        left: 0vw;
     }
+    .navbar-brand{
+        position: relative;
+        top: -22px;
+    }
+    #why{
+       display: none;
+
+    }
+
+    #smile{
+        display: none;
+    }
+
+    #show_off>#name{
+
+        font-size: 50px;
+    }
+
+    #smile_face{
+        display: none;
+    }
+
+    #profil_photo{
+        width: 200px;
+        height: 200px;
+    }
+
+    #image_section{
+        height: 600px;
+    }
+    #main_img{
+        height: 600px;
+    }
+    h1{
+        display: none;
+    }
+
+    #about_me_content{
+        font-size: 1.5rem;
+
+    }
+
+    #btn_view_cv{
+        /*top: 1.4vh;*/
+        bottom: -1.5vh;
+        left: 0;
+    }
+    #download_cv{
+        position: relative;
+        left: 9.5vw;
+        top: -1.3vh;
+    }
+
+    #educations{
+        left: 260px;
+        /*color: red;*/
+    }
+
+    #tab_size_about{
+        /*color: #fd7e14;*/
+        color: #06fc00;
+        position: relative;
+        right: -75vw;
+        width: 22vw;
+        top: -3vh;
+        font-weight: bolder;
+        font-size: 2.5rem;
+        margin-right: 20px;
+        margin-bottom: 3vh;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+        display: block;
+    }
+
+    .dominos{
+        position: relative;
+        margin-left: 0px;
+        margin-bottom: 75px;
+        width: 700px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .slithem{
+        position: relative;
+        margin-left: 0px;
+        margin-bottom: 75px;
+        width: 700px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    #skills>img{
+        display: none;
+    }
+
+    #tab_size_skills{
+        display: block;
+        color: #03ea00;
+        position: relative;
+        right: -75vw;
+        font-weight: bolder;
+        width: 20vw;
+        top: -3vh;
+        font-size: 2.5rem;
+        margin-right: 20px;
+        margin-bottom: 5vw;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+    }
+    #tab_size_projects{
+        color: #04dc00;
+        position: relative;
+        font-weight: bolder;
+        right: -68vw;
+        width: 28vw;
+        top: -3vh;
+        font-size: 2.5rem;
+        margin-right: 20px;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+        display: block;
+    }
+
+    #tab_size_sport{
+        color: #06ee00;
+        margin-top: 8vh;
+        position: relative;
+        font-weight: bolder;
+        right: -40vw;
+        width: 50vw;
+        top: -3vh;
+        font-size: 2.5rem;
+        margin-right: 20px;
+        margin-bottom: 3vw;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+        display: block;
+    }
+
+    #tab_size_contact{
+        margin-top: 10vh;
+        color: #04dc00;
+        position: relative;
+        font-weight: bolder;
+        right: -70vw;
+        width: 25vw;
+        top: -3vh;
+        font-size: 2.5rem;
+        margin-right: 20px;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+        display: block;
+    }
+
+    #projects_java{
+        height: 50vh;
+        width: 30vw;
+        margin-left: -1.5vw;
+        background-position: center right;
+
+    }
+    #project_part02{
+        margin-bottom: 5vw;
+
+    }
+
+ #projects_unreal{
+        height: 50vh;
+        width: 30vw;
+        margin-left: 5vw;
+     background-position: center;
+
+ }
+
+ #projects_web{
+        height: 50vh;
+        width: 30vw;
+        margin-left: 5vw;
+     background-position: center;
+    }
+
+ #athlatik{
+     height: 50vh;
+     width: 30vw;
+     margin-left: 5vw;
+     background-position: center;
+ }
+
+ #games{
+     height: 50vh;
+     width: 30vw;
+     margin-left: 15vw;
+     background-position: center;
+ }
+
+ #projects{
+     height: 65vh;
+ }
+
+    .javaspan{
+        width: 22vw;
+        height: 17vh;
+    }
+
+    .first_link_txt{
+        bottom: -20vh;
+    }
+
+    .web_img_view{
+        width: 22vw;
+        height: 17vh;
+    }
+
+  .web_img_view_second_row{
+      bottom: -30vh;
+        width: 22vw;
+        height: 17vh;
+    }
+
+    .jausa_link{
+        bottom:-25vw;
+        font-size: 1rem;
+    }
+
+    .games_img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 5vw;
+    }
+    #cod{
+        position: relative;
+        left: -89vw;
+        bottom: -30vw;
+    }
+
+    #athlatik_list{
+        /*display: none;*/
+        font-size: 1.5rem;
+    }
+    .athlatik_images{
+        display: none;
+    }
+    #athlatik_contecnt{
+        width: 80vw;
+        height: 40vh;
+        position: absolute;
+        top: -110px;
+        right: 15px;
+    }
+
+    #sports_part02{
+        height: 30vh;
+    }
+
+    #your_name{
+
+        width: 30vw;
+
+    }
+
+    #msg_mail{
+        display: none;
+    }
+    #bottam_content{
+        display: none;
+    }
+
+    .link_img{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        margin-left: 5vw;
+        bottom: -20vh;
+    }
+    #contact_me{
+        /*border: 2px solid red;*/
+        height: 30vh;
+    }
+
+
+}
+@media all and (min-width: 1300px) {
+
+   #nav_fonts{
+       display: none;
+   }
+
+   /* #download_cv{
+        position: relative;
+        left: 190px;
+        background: #00ff04
+    }
+    .dominos{
+
+        !*border: 3px solid white;*!
+        position: relative;
+        margin-left: 1050px;
+        margin-bottom: 75px;
+        width: 700px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .slithem{
+        !*border: 3px solid white;*!
+        width: 650px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+        margin-left: 1050px;
+        margin-bottom: 75px;
+        width: 650px;
+    }*/
 
 }

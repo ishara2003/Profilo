@@ -16,6 +16,8 @@
 <!--<a href="https://github.com/ishara2003">lick declayer</a>-->
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
+
+
 <head>
   <meta charset="UTF-8">
   <title>My Profile 02</title>
@@ -49,14 +51,14 @@
 
 <body id="abc" class="container-fluid" style="background: #410557">
 
-<nav style=""
-     id="navbar" class="navbar bg-body-tertiary px-3 mb-3">
+<nav style="position: fixed"
+     class="navbar">
   <a
           style="font-size: 28px; color: #ff0000; font-style: italic;"
           class="navbar-brand" href="#">My Profile
   </a>
 
-  <ul style="margin-right: 50px" class="nav nav-pills">
+  <ul id="naw_items" style="margin-right: 50px" class="nav nav-pills">
 
     <li id="navbar_home" class="nav-item" style="margin-left: 35px; cursor:pointer">
                       <a style="color:#23e800;" class="nav-link" href="#main_img">Home</a>
@@ -70,52 +72,68 @@
                       <a style="color:#23e800;" class="nav-link" href="#skills">Skills</a>
     </li>
     <li id="navbar_projects" class="nav-item" style="margin-left: 35px; cursor:pointer">
-                      <a style="color:#23e800;" class="nav-link" href="#skills">My Projects</a>
+                      <a style="color:#23e800;" class="nav-link" href="#004">My Projects</a>
     </li>
 
     <li id="navbar_sports" class="nav-item" style="margin-left: 35px; cursor:pointer">
-      <a style="color:#23e800;" class="nav-link" href="#skills">Sports & Leadersips</a>
+      <a style="color:#23e800;" class="nav-link" href="#005">Sports & Leadersips</a>
     </li>
 
     <li id="navbar_contact" class="nav-item" style="margin-left: 35px; cursor:pointer">
-      <a style="color:#23e800;" class="nav-link" href="#skills">Contact Me</a>
+      <a style="color:#23e800;" class="nav-link" href="#006">Contact Me</a>
+    </li>
+
+  </ul>
+    <ul id="nav_fonts" style="margin-right: 50px" class="nav nav-pills">
+
+    <li  class="nav-item" style="margin-left: 35px; cursor:pointer">
+                      <a style="color:#23e800;" class="nav-link" href="#main_img"><i class="fa-solid fa-house"></i></a>
+    </li>
+
+    <li  class="nav-item" style="margin-left: 35px; cursor:pointer">
+                      <a style="color:#23e800;" class="nav-link" href="#tab_size_about"><i class="fa-solid fa-eject"></i></a>
+    </li>
+
+    <li  class="nav-item" style="margin-left: 35px; cursor:pointer">
+                      <a style="color:#23e800;" class="nav-link" href="#tab_size_skills"><i class="fa-solid fa-book-skull"></i></a>
+    </li>
+    <li  class="nav-item" style="margin-left: 35px; cursor:pointer">
+                      <a style="color:#23e800;" class="nav-link" href="#tab_size_projects"><i class="fa-solid fa-diagram-project"></i></a>
+    </li>
+
+    <li  class="nav-item" style="margin-left: 35px; cursor:pointer">
+      <a style="color:#23e800;" class="nav-link" href="#tab_size_sport"><i class="fa-solid fa-volleyball"></i></a>
+    </li>
+
+    <li  class="nav-item" style="margin-left: 35px; cursor:pointer">
+      <a style="color:#23e800;" class="nav-link" href="#tab_size_contact"><i class="fa-solid fa-address-book"></i></a>
     </li>
 
   </ul>
 </nav>
 
 <div id="image_section">
-  <img style="position:absolute;top: 100vh;transform: rotate3d(-32,119,72,-15deg);" src="assets/images/laugh02.png" alt="">
+  <img id="smile_face" style="position:absolute;top: 100vh;transform: rotate3d(-32,119,72,-15deg);" src="assets/images/laugh02.png" alt="">
 
-  <p style="z-index: 1;
-color: white;
-position:relative;
-top: 10vw;
-left: 5vw;
-font-size: 3rem;
+  <p id="why" style=";
 ">
-    <span style="font-size: 4rem">W</span>hy
-    <span style="font-size: 4rem">S</span>o
-    <span style="font-size: 4rem">S</span>erious
-    <span style="font-size: 9rem" >!</span></p>
+    <span style="">W</span>hy
+    <span style="">S</span>o
+    <span style="">S</span>erious
+    <span style="" >!</span></p>
 
+  <p id="smile">Let's Put A Smile On That Face</p>
 
-  <p style="z-index: 1;
-color: white;
-position:relative;
-top: 13vw;
-left: 15vw;
-font-size: 5rem;
-">Let's Put A Smile On That Face</p>
 <img style="transform: rotateY(0deg);" id="main_img" src="assets/images/half5.jpg" alt="" >
+
 </div>
 
 
-<div id="show_off" style="width: 98vw;height: 40vh; /*border: 2px solid red;*/position: relative;top: 0.2vw;margin-bottom: 5vw;">
+<div id="show_off">
 
   <div id="name">Ishara Sankalpa</div>
 
-  <svg>
+ <!-- <svg>
     <filter id="noise">
       <feTurbulence baseFrequency="0.07" type="fractalNoise"  result="turbNoise" />
       <feDisplacementMap
@@ -126,20 +144,9 @@ font-size: 5rem;
               scale="4"
               result="disp"/>
     </filter>
-  </svg>
+  </svg>-->
 
   <br>
-
-<!--  <div class="wrapper">
-  <div class="static-txt">I'm a</div>
-  <ul class="dynamic-txts">
-    <li><span>YouTuber</span></li>
-    <li><span>Designer</span></li>
-    <li><span>Developer</span></li>
-    <li><span>Game Developer</span></li>
-  </ul>
-
-</div>-->
 
   <div class="animate__flip" id="profil_photo">
 
@@ -149,12 +156,15 @@ font-size: 5rem;
 
 <div class="about_me">
 
+
+    <p id="tab_size_about"><u>About Me</u></p>
+
 <h1 id="001" style="
 /*color: #fd7e14;*/
 color: #06fc00;
  position: relative;
 right: -82vw;
-width: 15vw;
+width: 25vw;
 font-family: Roboto Thin;
 top: -3vh;
 font-weight: bolder;
@@ -164,19 +174,20 @@ margin-bottom: 3vh;
 text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 "><u>About Me</u></h1>
 
-<p id="about_me_content" style="">&emsp;&emsp;&emsp;Some will tell you it can't be done.
-  They will try to trample you,<br> but do not be shocked, because the river flowing through the rocks is very beautiful.
-  <br>
+<p id="about_me_content">&emsp;&emsp;&emsp;Some will tell you it can't be done.
+  They will try to trample you, but do not be shocked, because the river flowing through the rocks is very beautiful.
+
   Hi my name is Ishara Sankalpa and i’m a Software Engineer. I might not be a best one but i do my best. That's who i am</p>
 
 </div>
 
 <div class="btn_cv">
 
-<button onclick="window.open('assets/pdf/CV.pdf','_blank')" style="position: relative;" type="button">View CV</button>
+<button onclick="window.open('assets/pdf/CV.pdf','_blank')"
+       id="btn_view_cv" type="button">View CV</button>
 
   <a href="assets/pdf/CV.pdf" download="">
-<button type="button"><i class="fa-solid fa-cloud-arrow-down fa-bounce"></i></button>
+<button id="download_cv" type="button"><i class="fa-solid fa-cloud-arrow-down fa-bounce"></i></button>
   </a>
 
 </div>
@@ -186,14 +197,8 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 <section class="e&e">
 
 
-  <h3 style="text-decoration: underline;
-  font-family: Roboto Thin, emoji;
-  position: relative;
-  font-weight: bolder;
-  left: 750px;
-  width: 500px;
-  color:#01e100;">Educations & Experiances
-  </h3>
+  <p id="educations" style="">Educations & Experiances
+  </p>
 
   <br>
   <br>
@@ -222,7 +227,7 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 
 <div data-aos="fade-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" style="position: relative;margin-left: 1200px;margin-bottom: 75px;" class="dominos">
+     data-aos-duration="2000" style="" class="dominos">
 
   <div id="dominosIcone">
 
@@ -273,13 +278,12 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
   <br>
   <br>
   <br>
-  <br>
-  <br>
+
 
 
   <div data-aos="fade-left"
        data-aos-easing="ease-out-cubic"
-       data-aos-duration="2000" style="position: relative;margin-left: 1200px;margin-bottom: 75px;width: 700px;" class="slithem">
+       data-aos-duration="2000" class="slithem">
 
     <div id="slithamIcon">
 
@@ -309,8 +313,6 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
   <br>
   <br>
   <br>
-  <br>
-  <br>
 
 
   <div data-aos="fade-right"
@@ -336,7 +338,7 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 
 </section>
 
-
+<p id="tab_size_skills"><u>My Skills</u></p>
 <section id="skills">
 
   <h1 style="
@@ -344,7 +346,7 @@ color: #03ea00;
 position: relative;
 right: -82vw;
 font-weight: bolder;
-width: 14vw;
+width: 20vw;
 font-family: Roboto Thin;
 top: -3vh;
 font-size: 4rem;
@@ -521,24 +523,23 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Skills</u></h1>
 
 </section>
 
-  <h1 style="
+
+<p id="tab_size_projects"><u>My Projects</u></p>
+
+  <h1 id="004" style="
 /*color: #fd7e14;*/
 color: #04dc00;
  position: relative;
  font-weight: bolder;
 right: -77vw;
-width: 20vw;
+width: 23vw;
 font-family: Roboto Thin;
 top: -3vh;
 font-size: 4rem;
 margin-right: 20px;
 text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Projects</u></h1>
 
-<section  style="width: 99vw;
-padding-top: 7vw;
-position: relative;
-height: 100vh;
-display:flex;
+<section  style="
 " id="projects">
 
 
@@ -553,14 +554,14 @@ display:flex;
 <br>
 <br>
 
-<section class="animate__animated animate__fadeIn" id="project_part02">
+<section style="border: 2px solid red;" class="animate__animated animate__fadeIn" id="project_part02">
   <div class="animate__animated animate__fadeIn" id="unreal_contecnt">
 
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+    <h1 class="javaspan" style="color:#ffffff;">NULL</h1>
+    <h1 class="javaspan" style="color:#ffffff;">NULL</h1>
+    <h1 class="javaspan" style="color:#ffffff;">NULL</h1>
+    <h1 class="javaspan" style="color:#ffffff;">NULL</h1>
+    <h1 class="javaspan" style="color:#ffffff;">NULL</h1>
 
 
   </div>
@@ -569,18 +570,18 @@ display:flex;
   <div class="animate__animated animate__fadeIn" id="java_contecnt">
 
     <div class="javaspan" id="jausa">
-      <a style="text-align: center;position:relative;bottom: -33vh;font-size: 1.5rem;  color:#ffffff;"
+      <a class="jausa_link"
          href="https://github.com/ishara2003/Jausa-Constructions">Jausa Construction (Layered)</a>    </div>
 
 <div class="javaspan" id="hostal">
-  <a style="text-align: center;position:relative;bottom: -33vh;font-size: 1.5rem;  color:#ffffff;"
+  <a class="jausa_link"
      href="https://github.com/ishara2003/Hostal-Managment-System">Hostal Managment System (Layered + Hibernate)</a>
 
     </div>
 
 
 <div  class="javaspan" id="task">
-  <a style="text-align: center;position:relative;bottom: -33vh;font-size: 1.5rem;  color:#ffffff;"
+  <a class="jausa_link"
      href="https://github.com/ishara2003/Task-Manager">Task Manage System (MVC)</a>
 
     </div>
@@ -590,11 +591,16 @@ display:flex;
 
    <div class="animate__animated animate__fadeIn" id="web_contecnt">
 
-    <h1 style="color:#13e73e;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
-    <h1 style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores beatae cupiditate delectus error fuga quae vel vero!</h1>
+       <a  href="assigments/assigment02/index.html"> <div class="web_img_view" id="first_link"> <p class="first_link_txt">Only HTML Profilo</p> </div></a>
+
+       <a href="assigments/assigment03/Case2.html"><div class="web_img_view" id="second_link"><p class="first_link_txt">Boostrap Signal page</p></div></a>
+
+       <a href="assigments/assigment04/Car.html"><div class="web_img_view" id="theird_link"><p class="first_link_txt">Car Animation (Animation + CSS)</p></div></a>
+
+       <a href="assigments/assigment07/Assigment6.html"><div class="web_img_view" id="forth_link"><p class="first_link_txt">D24 POS System (JavaScripte + Localstorage)</p></div></a>
+
+       <a href="assigments/assigment08/Night_Rider.html"><div class="web_img_view_second_row" id="fifth_link"><p class="first_link_txt">Knight Rider (CSS + JavaScripte)</p></div></a>
+
 
 
   </div>
@@ -606,15 +612,16 @@ display:flex;
   <br>
 </section>
 
+<p id="tab_size_sport"><u>Sports and Leaderships</u></p>
 
-  <h1 style="
+  <h1 id="005" style="
   /*color: #fd7e14;*/
   color: #06ee00;
   margin-top: 8vh;
   position: relative;
   font-weight: bolder;
   right: -60vw;
-  width: 34vw;
+  width: 40vw;
   font-family: Roboto Thin;
   top: -3vh;
   font-size: 4rem;
@@ -633,21 +640,22 @@ display:flex;
 <br>
 <br>
 
-<section style="display:none; position: relative;top: 2vw;height: 80vh;" class="animate__animated animate__fadeIn" id="sports_part02">
+<section class="animate__animated animate__fadeIn" id="sports_part02">
 
-  <div style="inset: 0;margin: auto;position:absolute;color:#ffffff;width: 60vw;height: 80vh;font-size: 2rem;" class="animate__animated animate__fadeIn" id="athlatik_contecnt">
+  <div
+   style="" class="animate__animated animate__fadeIn" id="athlatik_contecnt">
 
-   <ul style="position: relative;margin-top: 10vh;" >
+   <ul id="athlatik_list" style="position: relative;margin-top: 10vh;" >
      <li>
-       <img style="width: 150px;border-radius: 50%;" src="assets/images/wp10029541.jpg" alt="">
+       <img class="athlatik_images" style="width: 150px;border-radius: 50%;" src="assets/images/wp10029541.jpg" alt="">
        Captain of the Horana Royal Collage Volleyball team
    </li>
      <li>
-       <img  style="width: 150px; border-radius: 50%;" src="assets/images/photo-1579952363873-27f3bade9f55.jpeg" alt="">
+       <img class="athlatik_images" style="width: 150px; border-radius: 50%;" src="assets/images/photo-1579952363873-27f3bade9f55.jpeg" alt="">
        Captain of the Horana Royal Collage Football team
      </li>
      <li>
-       <img  style="width: 150px;border-radius: 50%;" src="assets/images/4524574.jpg" alt="">
+       <img class="athlatik_images" style="width: 150px;border-radius: 50%;" src="assets/images/4524574.jpg" alt="">
        Vice Captain of the Horana Royal Collage Kabaddi team
      </li>
    </ul>
@@ -656,12 +664,12 @@ display:flex;
   </div>
 
 
-  <div style="inset: 0;margin: auto;position:absolute;color:#ffffff;width: 98vw;height: 80vh;font-size: 2rem;" class="animate__animated animate__fadeIn" id="game_contecnt">
+  <div style="" class="animate__animated animate__fadeIn" id="game_contecnt">
 
-    <img style="border-radius: 50%;width: 300px;height: 300px; margin-left: 2.5vw;" src="assets/images/671214.jpg" alt="">
-    <img style="border-radius: 50%;width: 300px;height: 300px; margin-left: 10vw;" src="assets/images/wp1854626.jpg" alt="">
-    <img style="border-radius: 50%;width: 300px;height: 300px; margin-left: 10vw;" src="assets/images/wp1809647.jpg" alt="">
-    <img style="border-radius: 50%;width: 300px;height: 300px; margin-left: 10vw;" src="assets/images/wp9717750.jpg" alt="">
+    <img class="games_img"  src="assets/images/671214.jpg" alt="">
+    <img class="games_img"  src="assets/images/wp1854626.jpg" alt="">
+    <img class="games_img"  src="assets/images/wp1809647.jpg" alt="">
+    <img id="cod" class="games_img"  src="assets/images/wp9717750.jpg" alt="">
 
 
 
@@ -672,7 +680,8 @@ display:flex;
 <br>
 <br>
 
-<h1 style="
+<p id="tab_size_contact"><u>Contact Me</u></p>
+<h1 id="006" style="
 /*color: #fd7e14;*/
 color: #04dc00;
  position: relative;
@@ -684,55 +693,83 @@ top: -3vh;
 font-size: 4rem;
 margin-right: 20px;
 text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>Contact Me</u></h1>
+
 <section id="contact_me">
 
   <footer id="fotter">
 
     <br>
 
+      <div id="msg_mail">
+
+
         <input type="text" name="name" id="your_name" placeholder="Name">
 
         <input type="email" name="email" id="email" placeholder="email">
 
-       <img src="assets/images/whatsapp.png" alt="" width="60" height="60">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-    <p style="color:#ffffff;position:relative;left: 48vw;">+94 0762283527</p>
-
-      <img style="color:#ffffff;position:relative;left: 48vw;margin-top: 5vh;" src="assets/images/phone-call.png" alt="" height="60" width="60"><br>
-
-      <p style="color:#ffffff;position:relative;left: 48vw;">+94 0762269260</p>
 
           <textarea name="" id="txt" cols="50" rows="3"></textarea>
 
-          <img style="color:#ffffff;position:relative;left: 5vw;top: -20vh;" src="assets/images/gmail.png" alt=""width="60" height="60">
+      </div>
 
-          <br>
-
-          <a id="mail_link" href="sankalpaishara4@gmail.com?subject=txt">sankalpaishara4@gmail.com</a>
-
-          <br>
 
 
       <div id="links">
 
-          <a href="https://www.youtube.com/channel/UC9dh5PIHp-hGRalv0RwnMMw">
-            <img style="margin-left: 5vw;" src="assets/images/youtube.png" alt=""width="100" height="100">
+
+            <img class="link_img" src="assets/images/whatsapp.png" alt=""width="100" height="100">
+
+
+            <img class="link_img" src="assets/images/phone-call.png" alt=""width="100" height="100">
+
+            <img class="link_img" src="assets/images/gmail.png" alt=""width="100" height="100">
+
+
+            <a href="https://www.youtube.com/channel/UC9dh5PIHp-hGRalv0RwnMMw">
+
+            <img class="link_img" src="assets/images/youtube.png" alt=""width="100" height="100">
           </a>
 
 
           <a href="https://www.linkedin.com/in/ishara-sankalpa-4b3810265/">
-            <img style="margin-left: 5vw;" src="assets/images/linkedin.png" alt=""width="100" height="100">
+
+            <img class="link_img" s src="assets/images/linkedin.png" alt=""width="100" height="100">
           </a>
 
 
           <a href="https://www.instagram.com/isharasankalpa/">
-            <img style="margin-left: 5vw;" src="assets/images/instagram.png" alt=""width="100" height="100">
+
+            <img class="link_img"  src="assets/images/instagram.png" alt=""width="100" height="100">
           </a>
 
       </div>
 
   </footer>
 
+
+</section>
+
+
+<section id="bottam_content">
+    <p style="color: floralwhite" >Ishara Sankalpa Handapangoda &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;+94 076-22-69-260
+        &emsp;&emsp;&emsp;&emsp;&emsp;+94 076-22-83-527</p>
 
 </section>
 
@@ -893,5 +930,34 @@ $('#css_svg').on('mouseenter',()=>{
   AOS.init();
 
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1000, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+
 </body>
 </html>

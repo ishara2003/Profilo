@@ -40,8 +40,12 @@
 
 </section>
 
-<button id="start">start</button>
-<button id="stop">stop</button>
+<div style="position: relative;top: 55vh;left: 45vw;">
+
+
+<button style="width: 5vw;height: 3vh;" id="start">start</button>
+<button style="width: 5vw;height: 3vh;" id="stop">stop</button>
+</div>
 
 <script src="assets/jQuerry/jquery-3.6.4.min.js"></script>
 
@@ -88,7 +92,7 @@
     $('#start').on('click',()=>{
         clearInterval(interval);
 $('#audio')[0].play()
-         interval = setInterval(updatelight,100);
+         interval = setInterval(updatelight,50);
     });
 
 
