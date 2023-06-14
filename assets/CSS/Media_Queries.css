@@ -435,7 +435,7 @@
     #ijse{
         position: relative;
         margin-left: -7px;
-        margin-bottom: 75px;
+        /*margin-bottom: 75px;*/
         width: 420px;
 
     }
@@ -701,30 +701,111 @@
 
 
     #projects_java {
-        height: 20vh;
+        height: 35vh;
         width: 30vw;
         margin-left: -1.5vw;
         background-position: center right;
     }
 
     #projects_unreal {
-        height: 20vh;
+        height: 35vh;
         width: 30vw;
         margin-left: 5vw;
         background-position: center;
     }
 
     #projects_web {
-        height: 20vh;
+        height: 35vh;
         width: 30vw;
         margin-left: 5vw;
         background-position: center;
     }
 
     #projects {
-        height: 26vh;
+        height: 40vh;
     }
 
+
+    #games {
+        height: 35vh;
+        width: 30vw;
+        margin-left: 15vw;
+        background-position: center;
+    }
+
+    #athlatik {
+        height: 35vh;
+        width: 30vw;
+        margin-left: 5vw;
+        background-position: center;
+    }
+
+    .web_img_view {
+        width: 22vw;
+        height: 10vh;
+    }
+
+   /* .web_img_view_second_row {
+        bottom: -30vh;
+        width: 22vw;
+        height: 10vh;
+    }*/
+
+
+    .first_link_txt {
+        bottom: -11vh;
+    }
+    .first_link_txt {
+        position: relative;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 1rem;
+        /*bottom: -30vh;*/
+    }
+
+    .web_img_view_second_row {
+        bottom: -25vh;
+        width: 22vw;
+        height: 10vh;
+    }
+
+    .javaspan {
+        width: 22vw;
+        height: 10vh;
+    }
+
+    .games_img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        margin-left: 2vw;
+    }
+
+    #cod {
+        position: relative;
+        left: -97vw;
+        bottom: -36vw;
+    }
+
+    #tab_size_contact {
+        margin-top: 10vh;
+        color: #04dc00;
+        position: relative;
+        font-weight: bolder;
+        right: -64vw;
+        width: 29vw;
+        top: -3vh;
+        font-size: 1.5rem;
+        margin-right: 20px;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+        display: block;
+    }
+
+  
+    .link_img {
+        margin-left: 0vw;
+
+    }
 
 }
 
