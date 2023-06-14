@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-    font-family: "Roboto Thin", serif;
+    /*font-family: "Roboto Thin", serif;*/
 }
 
-body{
-    /*display: flex;*/
+#ijsy_txt01{
+    position: relative;margin-top: 20px; font-size: 20px;color:#ffffff;margin-left: 50px
+}
+
+#abc{
+    font-family: g;
+    background: #1a0025;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /*background: #343F4F;*/
     overflow-x: hidden;
 
 }
@@ -18,11 +22,13 @@ body{
     position: relative;background: #00ff04;
     color: #ff00fb;
     font-weight: bolder;
+    border-radius: 25px;
 }
 
 #download_cv{
     position: relative;
     left: -80px;
+    border-radius: 25px;
     background: #00ff04
 }
 
@@ -79,6 +85,14 @@ body{
     display:none; position: relative;top: 2vw;height: 80vh;
 }
 
+#secer{
+    width: 23vw;
+    height: 46vh;
+    position: relative;
+    left: 37.8vw;
+    top: -2vw;
+}
+
 #tab_size_sport{display: none}
 
 #game_contecnt{
@@ -116,12 +130,22 @@ body{
     height: 200px;
     border-radius: 20px;
 }
-.amari{
+#amary{
     /*border: 3px solid white;*/
     width: 650px;
     height: 200px;
     border-radius: 20px;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 75px;
 }
+#amari_txt_01{
+    position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;top: 1vw;
+}
+#amari_txt_02{
+    position: relative;margin-right:50px; font-size: 26px;color:#33ffc2;margin-left: 30px;margin-top: 1vw;
+}
+
 .exam{
     /*border: 3px solid white;*/
     width: 750px;
@@ -136,8 +160,28 @@ body{
     position: relative;
     margin-left: 1200px;
     margin-bottom: 75px;
-    width: 650px;
+    /*width: 650px;*/
 }
+#slith_txt_01{
+    font-size: 20px;
+    color:#ffffff;
+    margin-left: 250px;
+    position: relative;
+    top: -50px;
+    margin-top: 75px;
+}
+#slith_txt_02{
+    font-size: 26px;
+    color:#33ffc2;
+    margin-left: 30px;
+    margin-right: 100px;
+    position: relative;
+    top: -50px;
+    left: 200px;
+}
+
+
+
 #ijseicon{
     box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px ,
     rgba(39, 255, 0, 0.12) 0px -12px 30px,
@@ -247,6 +291,16 @@ body{
     border-radius: 40px;
 
 }
+
+ #ijsy_txt02{
+     position: relative; margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px
+ }
+
+#ijse{
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 75px
+}
 #ijse:hover{
     position: relative;
     background: #49a64f;
@@ -264,7 +318,23 @@ body{
     border-radius: 40px;
     /*opacity: 90%;*/
 }
-
+#dominos_txt_01{
+    font-size: 20px;
+    color:#ffffff;
+    margin-left: 250px;
+    position: relative;
+    top: -200px;
+    margin-top: 75px;
+}
+#dominos_txt_02{
+    font-size: 26px;
+    color: #33ffc2;
+    margin-left: 30px;
+    margin-right: 100px;
+    position: relative;
+    top: -170px;
+    left: 200px;
+}
 .amari:hover{
     position: relative;
     background: #49a64f;
@@ -283,6 +353,17 @@ body{
     /*opacity: 90%;*/
 }
 
+#exam_rch{
+    position: relative;margin-left: 50px;margin-bottom: 75px;
+}
+
+#exam_txt_01{
+    position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;margin-top: 20px;
+}
+#exam_txt_02{
+    position: relative;margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px
+}
+
 .exam:hover{
     position: relative;
     background: #49a64f;
@@ -290,6 +371,10 @@ body{
     height: 200px;
     border-radius: 40px;
     /*opacity: 90%;*/
+}
+
+#phone_size_skill{
+    display: none;
 }
 
 
@@ -306,8 +391,16 @@ p>span:nth-child(4){
     color: white;
     position:relative;
     top: 13vw;
-    left: 15vw;
+    left: 25vw;
     font-size: 5rem;
+}
+
+section{
+
+    background-image: url("../images/main_bg.png");
+    background-position: center top;
+    background-size: cover;
+
 }
 
 #why{
@@ -315,8 +408,8 @@ p>span:nth-child(4){
     color: white;
     position:relative;
     top: 10vw;
-    left: 5vw;
-    font-size: 3rem
+    left: 30vw;
+    font-size: 4rem
 }
 
 .navbar{
@@ -332,6 +425,8 @@ p>span:nth-child(4){
 
 
 #image_section{
+
+
     background-image: url("../images/hahaa.jpg");
     background-size: cover;
     background-position: left;
@@ -339,6 +434,13 @@ p>span:nth-child(4){
     position: relative;
     height: 920px;
     left: -10px;
+
+}
+#image_section>p{
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap');
+    font-family: 'Rubik', sans-serif;
+
 
 }
 
@@ -354,8 +456,7 @@ p>span:nth-child(4){
     margin-left: 50px;
     font-size: 28px;
     color: white;
-    font-family: "Roboto Thin", emoji;
-
+    font-family: 'Passion One', cursive;
 }
 .about_me{
     position: relative;

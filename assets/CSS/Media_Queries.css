@@ -1,5 +1,8 @@
 @media all and (max-width: 1300px) {
 
+    #hambtn{
+        display: none;
+    }
    #naw_items{
        display: none;
    }
@@ -59,7 +62,14 @@
     #download_cv{
         position: relative;
         left: 9.5vw;
-        top: -1.3vh;
+        top: -1.1vh;
+    }
+    #secer {
+        width: 37vw;
+        height: 29vh;
+        position: relative;
+        left: 26.1vw;
+        top: 3vw;
     }
 
     #educations{
@@ -319,5 +329,402 @@
         margin-bottom: 75px;
         width: 650px;
     }*/
+    #hambtn{
+        display: none;
+    }
 
 }
+
+
+@media all and (max-width: 720px) {
+
+    #nav_fonts{
+        display: none;
+    }
+
+    #hambtn{
+        display: block;
+        width: 250px;
+        height: 750px;
+        /*border: 2px solid red;*/
+        position: fixed;
+        top: 0;
+        right: -23.5vh;
+        z-index: 100;
+        transition-duration: 1.5s;
+    }
+    #hamberger_btn , #hamberger02_btn{
+        position: relative;
+        top:1vh;
+    }
+
+    #hambtn>p{
+        /*display: none;*/
+    }
+    #profil_photo {
+        /*width: 200px;
+        height: 200px;*/
+        left: 22vw;
+    }
+    #secer {
+        width: 71vw;
+        height: 32vh;
+        position: relative;
+        left: 9.8vw;
+        top: 2vw;
+    }
+
+    #tab_size_about {
+        color: #fd7e14;
+        color: #06fc00;
+        position: relative;
+        right: -69vw;
+        width: 26vw;
+        top: 0vh;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        margin-right: 20px;
+        margin-bottom: 3vh;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+        display: block;
+    }
+    #about_me_content {
+        font-size: 1rem;
+        left: -9vw;
+        position: relative;
+    }
+    
+
+   /* #hambtn:hover{
+        right: 0;
+    }*/
+
+
+    .btn_cv {
+        position: relative;
+        left: 66vw;
+        top: -4vh;
+        width: 18vw;
+        border-radius: 25px;
+        font-size: .9rem;
+    }
+
+    #download_cv {
+        position: relative;
+        left: 16.5vw;
+        top: -1.6vh;
+        border-radius: 25px;
+    }
+#btn_view_cv {
+    top: 1.4vh;
+    bottom: -1.5vh;
+    left: 0;
+    border-radius: 25px;
+}
+
+    #educations {
+        text-decoration: underline;
+        font-family: Roboto Thin, emoji;
+        position: relative;
+        font-weight: bolder;
+        left: 80px;
+        width: 500px;
+        color: #cf00e1;
+        font-size: 1.2rem;
+    }
+    #ijse{
+        position: relative;
+        margin-left: -7px;
+        margin-bottom: 75px;
+        width: 420px;
+
+    }
+
+
+    #ijsy_txt01{
+
+        position: relative;
+        margin-top: 20px;
+        font-size: 16px;
+        color: #ffffff;
+        margin-left: 50px;
+
+    }
+    #ijsy_txt02{
+
+        position: relative;
+        margin-right: 50px;
+        font-size: 20px;
+        color: #33ffc2;
+        margin-left: 30px;
+
+    }
+
+    #ijseicon {
+        box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px , rgba(39, 255, 0, 0.12) 0px -12px 30px, rgba(43, 255, 0, 0.12) 0px 4px 6px, rgba(40, 255, 0, 0.17) 0px 12px 13px, rgba(40, 255, 0, 0.09) 0px -3px 5px;
+        border: 2px solid #36e802;
+        width: 150px;
+        height: 150px;
+        border-radius: 12rem;
+        position: relative;
+        left: 258px;
+        top: -97px;
+    }
+
+    #ijse:hover{
+        position: relative;
+        background: #49a64f;
+        width: 420px;
+        height: 200px;
+        border-radius: 40px;
+        /*opacity: 90%;*/
+    }
+
+    .dominos:hover{
+        position: relative;
+        background: #49a64f;
+        width: 420px;
+        height: 200px;
+        border-radius: 40px;
+        /*opacity: 90%;*/
+    }
+
+    #dominosIcone {
+        box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px , rgba(39, 255, 0, 0.12) 0px -12px 30px, rgba(43, 255, 0, 0.12) 0px 4px 6px, rgba(40, 255, 0, 0.17) 0px 12px 13px, rgba(40, 255, 0, 0.09) 0px -3px 5px;
+        border: 2px solid #36e802;
+        background-image: url("../images/XvUsfIo-WJPqWRKW.jpeg");
+        background-position: center;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        border-radius: 12rem;
+        position: relative;
+        top: 50px;
+        left: unset;
+    }
+
+    #dominos_txt_01 {
+        color: #ffffff;
+        margin-left: 135px;
+        position: relative;
+        top: -213px;
+        margin-top: 62px;
+        font-size: 16px;
+    }
+
+    #dominos_txt_02 {
+        font-size: 20px;
+        color: #33ffc2;
+        margin-left: 0px;
+        margin-right: 100px;
+        position: relative;
+        top: -205px;
+        left: 115px;
+    }
+
+    #amary {
+        /*border: 3px solid white;*/
+        width: 420px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+        margin-left: -6px;
+        margin-bottom: 75px;
+    }
+
+    #amari_txt_01 {
+        position: relative;
+        font-size: 16px;
+        color: #ffffff;
+        margin-left: 5px;
+        top: 1vw;
+        margin-top: 3vh;
+    }
+
+    #amari_txt_02 {
+        position: relative;
+        margin-right: 50px;
+        font-size: 20px;
+        color: #33ffc2;
+        margin-left: 1px;
+        margin-top: 1vw;
+    }
+
+    #amariIcon {
+        box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px , rgba(39, 255, 0, 0.12) 0px -12px 30px, rgba(43, 255, 0, 0.12) 0px 4px 6px, rgba(40, 255, 0, 0.17) 0px 12px 13px, rgba(40, 255, 0, 0.09) 0px -3px 5px;
+        border: 2px solid #36e802;
+        background-image: url("../images/image.jpg");
+        background-position: right;
+        width: 150px;
+        height: 150px;
+        border-radius: 12rem;
+        position: relative;
+        left: 265px;
+        top: -80px;
+    }
+
+    #slithamIcon {
+        box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px , rgba(39, 255, 0, 0.12) 0px -12px 30px, rgba(43, 255, 0, 0.12) 0px 4px 6px, rgba(40, 255, 0, 0.17) 0px 12px 13px, rgba(40, 255, 0, 0.09) 0px -3px 5px;
+        border: 2px solid #36e802;
+        background-image: url("../images/LOGO-with-Name-2-3.png");
+        background-position: left;
+        background-size: cover;
+        width: 135px;
+        height: 135px;
+        border-radius: 12rem;
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+
+    #slith_txt_01 {
+        font-size: 16px;
+        color: #ffffff;
+        margin-left: 177px;
+        position: relative;
+        top: -70px;
+        margin-top: 75px;
+    }
+
+    #slith_txt_02 {
+        font-size: 18px;
+        color: #33ffc2;
+        margin-left: 30px;
+        margin-right: 100px;
+        position: relative;
+        top: -65px;
+        left: 110px;
+    }
+
+    .slithem:hover{
+        position: relative;
+        background: #49a64f;
+        width: 420px;
+        height: 200px;
+        border-radius: 40px;
+        /*opacity: 90%;*/
+    }
+
+    #exam_rch{
+        position: relative;
+        margin-left: -10px;
+        margin-bottom: 75px;
+    }
+
+    #exam_txt_01 {
+        position: relative;
+        font-size: 16px;
+        color: #ffffff;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+
+    #exam_txt_02 {
+        position: relative;
+        margin-right: 25px;
+        font-size: 20px;
+        color: #33ffc2;
+        margin-left: 5px;
+    }
+    .exam:hover{
+        position: relative;
+        background: #49a64f;
+        width: 420px;
+        height: 200px;
+        border-radius: 40px;
+        /*opacity: 90%;*/
+    }
+
+    #examIcon {
+        box-shadow: rgba(35, 255, 0, 0.25) 0px 10px 70px , rgba(39, 255, 0, 0.12) 0px -12px 30px, rgba(43, 255, 0, 0.12) 0px 4px 6px, rgba(40, 255, 0, 0.17) 0px 12px 13px, rgba(40, 255, 0, 0.09) 0px -3px 5px;
+        border: 2px solid #36e802;
+        background-image: url("../images/7238d96e-b5797f47-gce-o_l-2019_850x460_acf_cropped.jpg");
+        background-position: center top;
+        background-size: cover;
+        width: 130px;
+        height: 130px;
+        border-radius: 12rem;
+        position: absolute;
+        right: 338px;
+        top: 20px;
+    }
+
+    #phone_size_skill{
+        display: block;
+    }
+    #skills{
+        display: none;
+    }
+
+    #tab_size_skills {
+        display: block;
+        color: #03ea00;
+        position: relative;
+        right: -70vw;
+        font-weight: bolder;
+        width: 24vw;
+        top: -3vh;
+        font-size: 1.5rem;
+        margin-right: 0px;
+        margin-bottom: 1vw;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+    }
+
+    #tab_size_projects {
+        color: #04dc00;
+        position: relative;
+        font-weight: bolder;
+        right: -65vw;
+        width: 31vw;
+        top: -3vh;
+        font-size: 1.5rem;
+        margin-right: 0px;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+        display: block;
+    }
+
+
+    #tab_size_sport {
+        color: #06ee00;
+        margin-top: 8vh;
+        position: relative;
+        font-weight: bolder;
+        right: -36vw;
+        width: 57vw;
+        top: -3vh;
+        font-size: 1.5rem;
+        margin-right: 20px;
+        margin-bottom: 3vw;
+        text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
+        display: block;
+    }
+
+
+    #projects_java {
+        height: 20vh;
+        width: 30vw;
+        margin-left: -1.5vw;
+        background-position: center right;
+    }
+
+    #projects_unreal {
+        height: 20vh;
+        width: 30vw;
+        margin-left: 5vw;
+        background-position: center;
+    }
+
+    #projects_web {
+        height: 20vh;
+        width: 30vw;
+        margin-left: 5vw;
+        background-position: center;
+    }
+
+    #projects {
+        height: 26vh;
+    }
+
+
+}
+

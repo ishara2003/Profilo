@@ -35,27 +35,40 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/boostrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
 <!--  sroll Animation-->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
-  <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
 
-  <style>
-
-
-
-  </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+    </style>
 
 </head>
 
-<body id="abc" class="container-fluid" style="background: #410557">
+<body id="abc" class="container-fluid" >
+
+<div id="hambtn"><i id="hamberger_btn" class="fa-solid fa-bars fa-fade fa-2xl" style="color: #06b3d0;"></i><i id="hamberger02_btn" class="fa-solid fa-bars fa-fade fa-2xl" style="color: #06b3d0;"></i><br>
+
+
+    <ul style="color: #FFFFFF;text-align:left;margin-left: 35px;margin-top: 3vh;">
+        <li style="margin-top: 7vh;font-size: 1.7rem;">Home</li>
+        <li style="margin-top: 7vh;font-size: 1.7rem;">About Me</li>
+        <li style="margin-top: 7vh;font-size: 1.7rem;">Skills</li>
+        <li style="margin-top: 7vh;font-size: 1.7rem;">My Projects</li>
+        <li style="margin-top: 7vh;font-size: 1.7rem;">Sports & Leadership</li>
+        <li style="margin-top: 7vh;font-size: 1.7rem;">Contact Me</li>
+    </ul>
+
+</div>
 
 <nav style="position: fixed"
      class="navbar">
   <a
           style="font-size: 28px; color: #ff0000; font-style: italic;"
-          class="navbar-brand" href="#">My Profile
+          class="navbar-brand" href="#"> <img src="assets/images/joker_icone.png" width="75" style="position:relative;top: -1.3vh;">
   </a>
 
   <ul id="naw_items" style="margin-right: 50px" class="nav nav-pills">
@@ -76,7 +89,7 @@
     </li>
 
     <li id="navbar_sports" class="nav-item" style="margin-left: 35px; cursor:pointer">
-      <a style="color:#23e800;" class="nav-link" href="#005">Sports & Leadersips</a>
+      <a style="color:#23e800;" class="nav-link" href="#005">Sports & Leadership</a>
     </li>
 
     <li id="navbar_contact" class="nav-item" style="margin-left: 35px; cursor:pointer">
@@ -113,16 +126,15 @@
 </nav>
 
 <div id="image_section">
-  <img id="smile_face" style="position:absolute;top: 100vh;transform: rotate3d(-32,119,72,-15deg);" src="assets/images/laugh02.png" alt="">
+  <img id="smile_face" style="position:absolute;top: 100vh;transform: rotate3d(-32,119,72,-15deg);" src="assets/images/ing04.png" alt="" width="500">
 
-  <p id="why" style=";
-">
+  <p id="why" style="font-family: 'Creepster', cursive;">
     <span style="">W</span>hy
     <span style="">S</span>o
     <span style="">S</span>erious
-    <span style="" >!</span></p>
+    <span style="" >?</span></p>
 
-  <p id="smile">Let's Put A Smile On That Face</p>
+  <p style="font-family: 'Creepster', cursive;" id="smile">Let's Code with Ishara <img src="assets/images/j_txt03.png" width="200"></p>
 
 <img style="transform: rotateY(0deg);" id="main_img" src="assets/images/half5.jpg" alt="" >
 
@@ -133,21 +145,11 @@
 
   <div id="name">Ishara Sankalpa</div>
 
- <!-- <svg>
-    <filter id="noise">
-      <feTurbulence baseFrequency="0.07" type="fractalNoise"  result="turbNoise" />
-      <feDisplacementMap
-              in="SourceGraphic"
-              in2="turbNoise"
-              xChannelSelector="G"
-              yChannelSelector="B"
-              scale="4"
-              result="disp"/>
-    </filter>
-  </svg>-->
 
   <br>
-
+<div id="seser">
+    <img id="secer" src="assets/images/prof_css.png" alt="">
+</div>
   <div class="animate__flip" id="profil_photo">
 
   </div>
@@ -161,18 +163,18 @@
 
 <h1 id="001" style="
 /*color: #fd7e14;*/
-color: #06fc00;
+color: #d056ff;
  position: relative;
 right: -82vw;
 width: 25vw;
-font-family: Roboto Thin;
+/*font-family: Roboto Thin;*/
 top: -3vh;
 font-weight: bolder;
 font-size: 4rem;
 margin-right: 20px;
 margin-bottom: 3vh;
 text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
-"><u>About Me</u></h1>
+">About Me</h1>
 
 <p id="about_me_content">&emsp;&emsp;&emsp;Some will tell you it can't be done.
   They will try to trample you, but do not be shocked, because the river flowing through the rocks is very beautiful.
@@ -186,9 +188,9 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 <button onclick="window.open('assets/pdf/CV.pdf','_blank')"
        id="btn_view_cv" type="button">View CV</button>
 
+<button id="download_cv" type="button"><i class="fa-solid fa-cloud-arrow-down fa-bounce"></i>
   <a href="assets/pdf/CV.pdf" download="">
-<button id="download_cv" type="button"><i class="fa-solid fa-cloud-arrow-down fa-bounce"></i></button>
-  </a>
+  </a></button>
 
 </div>
 
@@ -206,13 +208,13 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 
   <div data-aos="fade-right"
        data-aos-easing="ease-out-cubic"
-       data-aos-duration="2000" id="ijse" style="position: relative; margin-left: 50px;margin-bottom: 75px;" class="ijse">
+       data-aos-duration="2000" id="ijse"  class="ijse">
 
 
-  <label style="position: relative;margin-top: 20px; font-size: 20px;color:#ffffff;margin-left: 50px"><strong><u>2022</u></strong></label>
+  <label id="ijsy_txt01" style=""><strong><u>2022</u></strong></label>
   <br>
   <br>
-  <label style="position: relative; margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px">Student of IJSE Panadura</label>
+  <label id="ijsy_txt02" style="">Student of IJSE Panadura</label>
     <div id="ijseicon">
 
   <img style="top: 50px;position: relative;" src="assets/images/ijse.png" alt="ijse.jpg" width="150">
@@ -234,22 +236,9 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
   </div>
 
 
-  <label style="font-size: 20px;
-  color:#ffffff;
-  margin-left: 250px;
-  position: relative;
-  top: -200px;
-  margin-top: 75px;
-"><strong><u>2021</u></strong></label>
+  <label id="dominos_txt_01" style=""><strong><u>2021</u></strong></label>
   <br>
-  <label style="font-size: 26px;
-  color:#33ffc2;
-  margin-left: 30px;
-  margin-right: 100px;
-   position: relative;
-  top: -170px;
-  left: 200px;
-">Employee Of Dominose in Havelock</label>
+  <label id="dominos_txt_02" style="">Employee Of Dominose in Havelock</label>
 
 </div>
 
@@ -260,15 +249,14 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 
   <div data-aos="fade-right"
        data-aos-easing="ease-out-cubic"
-       data-aos-duration="2000" style="position: relative;margin-left: 50px;margin-bottom: 75px;" class="amari">
-    <label style="position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;top: 1vw;"><strong><u>2020</u></strong></label>
+       data-aos-duration="2000" style="" class="amari" id="amary">
+
+    <label id="amari_txt_01" style=""><strong><u>2020</u></strong></label>
     <br>
     <br>
-    <label  style="position: relative;margin-right:50px; font-size: 26px;color:#33ffc2;margin-left: 30px;margin-top: 1vw;">Trainee Barker at Amari Hotel</label>
+    <label id="amari_txt_02" style="">Trainee Barker at Amari Hotel</label>
 
     <div id="amariIcon">
-
-<!--    <img src="assets/images/image.jpg" alt="" width="150">-->
     </div>
 
 
@@ -287,26 +275,12 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 
     <div id="slithamIcon">
 
-<!--    <img src="assets/images/LOGO-with-Name-2-3.png" alt="ijse.jpg" width="150">-->
     </div>
 
-    <label  style="font-size: 20px;
-  color:#ffffff;
-  margin-left: 250px;
-  position: relative;
-  top: -50px;
-  margin-top: 75px
-"><strong><u>2020</u></strong></label>
+    <label id="slith_txt_01" style=""><strong><u>2020</u></strong></label>
     <br>
     <br>
-    <label  style="font-size: 26px;
-  color:#33ffc2;
-  margin-left: 30px;
-  margin-right: 100px;
-   position: relative;
-  top: -50px;
-  left: 200px;
-">Pastry and Bakery course in SLITHM</label>
+    <label id="slith_txt_02" style="">Pastry and Bakery course in SLITHM</label>
 
   </div>
 
@@ -317,12 +291,12 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 
   <div data-aos="fade-right"
        data-aos-easing="ease-out-cubic"
-       data-aos-duration="2000" style="position: relative;margin-left: 50px;margin-bottom: 75px;" class="exam">
+       data-aos-duration="2000" style="" class="exam" id="exam_rch">
 
-    <label style="position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;margin-top: 20px;"><strong><u>2019</u></strong></label>
+    <label id="exam_txt_01" style=""><strong><u>2019</u></strong></label>
     <br>
     <br>
-    <label style="position: relative;margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px">G.C.E O/L Exam Royal Collage Horana</label>
+    <label id="exam_txt_02" style="">G.C.E O/L Exam Royal Collage Horana</label>
     <div id="examIcon">
 
 <!--    <img src="assets/images/7238d96e-b5797f47-gce-o_l-2019_850x460_acf_cropped.jpg" alt="" width="150">-->
@@ -342,17 +316,17 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
 <section id="skills">
 
   <h1 style="
-color: #03ea00;
+color: #d056ff;
 position: relative;
 right: -82vw;
 font-weight: bolder;
 width: 20vw;
-font-family: Roboto Thin;
+/*font-family: Roboto Thin;*/
 top: -3vh;
 font-size: 4rem;
 margin-right: 20px;
 margin-bottom: 5vw;
-text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Skills</u></h1>
+text-shadow: 4px 4px 8px rgba(73,4,114,0.76);">My Skills</h1>
 
   <div style="width: 20vw;height: 30vh;margin-left: 10vw;position: relative;" id="unreal">
 
@@ -523,21 +497,55 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Skills</u></h1>
 
 </section>
 
+<section id="phone_size_skill">
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">Java 70%</div>
+    </div>
+    <br>
+ <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">MY SQL 60%</div>
+    </div>
+    <br>
+ <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%">Unreal Engin 30%</div>
+    </div>
+    <br>
+ <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%">C++ 20%</div>
+    </div>
+    <br>
+ <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">HTML 70%</div>
+    </div>
+    <br>
+ <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">JavaScripte 65%</div>
+    </div>
+    <br>
+ <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">CSS 70%</div>
+    </div>
+    <br>
+    <br>
+    <br>
+</section>
+
 
 <p id="tab_size_projects"><u>My Projects</u></p>
 
   <h1 id="004" style="
 /*color: #fd7e14;*/
-color: #04dc00;
+color: #d056ff;
  position: relative;
  font-weight: bolder;
 right: -77vw;
 width: 23vw;
-font-family: Roboto Thin;
+/*font-family: Roboto Thin;*/
 top: -3vh;
 font-size: 4rem;
 margin-right: 20px;
-text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Projects</u></h1>
+text-shadow: 4px 4px 8px rgba(73,4,114,0.76);">My Projects</h1>
 
 <section  style="
 " id="projects">
@@ -616,18 +624,18 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Projects</u></h1>
 
   <h1 id="005" style="
   /*color: #fd7e14;*/
-  color: #06ee00;
+  color: #d056ff;
   margin-top: 8vh;
   position: relative;
   font-weight: bolder;
   right: -60vw;
   width: 40vw;
-  font-family: Roboto Thin;
+  /*font-family: Roboto Thin;*/
   top: -3vh;
   font-size: 4rem;
   margin-right: 20px;
   margin-bottom: 3vw;
-  text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>Sports and Leaderships</u></h1>
+  text-shadow: 4px 4px 8px rgba(73,4,114,0.76);">Sports and Leaderships</h1>
 <section style="width: 99vw;height: 100%;display: flex;" id="sports">
 
 
@@ -683,16 +691,16 @@ text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>My Projects</u></h1>
 <p id="tab_size_contact"><u>Contact Me</u></p>
 <h1 id="006" style="
 /*color: #fd7e14;*/
-color: #04dc00;
+color: #d056ff;
  position: relative;
  font-weight: bolder;
 right: -77vw;
 width: 20vw;
-font-family: Roboto Thin;
+/*font-family: Roboto Thin;*/
 top: -3vh;
 font-size: 4rem;
 margin-right: 20px;
-text-shadow: 4px 4px 8px rgba(73,4,114,0.76);"><u>Contact Me</u></h1>
+text-shadow: 4px 4px 8px rgba(73,4,114,0.76);">Contact Me</h1>
 
 <section id="contact_me">
 
@@ -925,6 +933,34 @@ $('#css_svg').on('mouseenter',()=>{
 
    });
 
+ $('#hamberger_btn').on('click',()=>{
+
+     $('#hamberger02_btn').css({display:"block",top:"2.2vh"})
+     $('#hamberger_btn').css({display:"none"})
+
+     var myDiv = document.getElementById('hambtn');
+     myDiv.style.right='0';
+     myDiv.style.background = '#1a0025'; // Set the new color as desired
+
+ });
+
+
+ $('#hamberger02_btn').on('click',()=>{
+
+     $('#hamberger02_btn').css({display:"none"})
+     $('#hamberger_btn').css({display:"block",top:"2.2vh"})
+
+     var myDiv = document.getElementById('hambtn');
+     myDiv.style.right='-23.5vh';
+     myDiv.style.background = 'transparent'; // Set the new color as desired
+
+ });
+
+  window.addEventListener('load', function() {
+      $('#hamberger02_btn').css({display:"none"})
+
+      console.log("wwe");
+  });
 
 
   AOS.init();
