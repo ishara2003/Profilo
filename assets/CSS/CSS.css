@@ -4,7 +4,20 @@
 }
 
 #ijsy_txt01{
-    position: relative;margin-top: 20px; font-size: 20px;color:#ffffff;margin-left: 50px
+    position: relative;margin-top: 20px; font-size: 20px;color:#ffffff;margin-left: 50px;    font-family: 'Passion One', cursive;
+
+}
+h3{
+    font-family: 'Passion One', cursive;
+
+}
+a{
+    font-family: 'Passion One', cursive;
+
+}
+
+#mob_device_nav_bar{
+    color: #FFFFFF;text-align:left;margin-left: 35px;margin-top: 3vh;    list-style-type: none;
 }
 
 #abc{
@@ -19,27 +32,29 @@
 
 #btn_view_cv{
     left: -80px;
-    position: relative;background: #00ff04;
-    color: #ff00fb;
+    position: relative;
+    background: #6c006a;
+    color: #151414;
     font-weight: bolder;
-    border-radius: 25px;
+    border-radius: 25px; font-family: 'Passion One', cursive;
 }
 
 #download_cv{
     position: relative;
     left: -80px;
     border-radius: 25px;
-    background: #00ff04
+    background: #6c006a
 }
 
 #educations{
     text-decoration: underline;
-    font-family: Roboto Thin, emoji;
+    /*font-family: Roboto Thin, emoji;*/
     position: relative;
     font-weight: bolder;
     left: 750px;
     width: 500px;
-    color:#01e100;
+    color: #aa01ff;
+    font-family: 'Creepster', cursive;
     font-size: 1.5rem;
 }
 
@@ -140,10 +155,12 @@
     margin-bottom: 75px;
 }
 #amari_txt_01{
-    position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;top: 1vw;
+    position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;top: 1vw;    font-family: 'Passion One', cursive;
+
 }
 #amari_txt_02{
-    position: relative;margin-right:50px; font-size: 26px;color:#33ffc2;margin-left: 30px;margin-top: 1vw;
+    position: relative;margin-right:50px; font-size: 26px;color:#33ffc2;margin-left: 30px;margin-top: 1vw;    font-family: 'Passion One', cursive;
+
 }
 
 .exam{
@@ -169,6 +186,8 @@
     position: relative;
     top: -50px;
     margin-top: 75px;
+    font-family: 'Passion One', cursive;
+
 }
 #slith_txt_02{
     font-size: 26px;
@@ -178,6 +197,8 @@
     position: relative;
     top: -50px;
     left: 200px;
+    font-family: 'Passion One', cursive;
+
 }
 
 
@@ -293,7 +314,8 @@
 }
 
  #ijsy_txt02{
-     position: relative; margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px
+     position: relative; margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px;    font-family: 'Passion One', cursive;
+
  }
 
 #ijse{
@@ -325,6 +347,8 @@
     position: relative;
     top: -200px;
     margin-top: 75px;
+    font-family: 'Passion One', cursive;
+
 }
 #dominos_txt_02{
     font-size: 26px;
@@ -334,6 +358,8 @@
     position: relative;
     top: -170px;
     left: 200px;
+    font-family: 'Passion One', cursive;
+
 }
 .amari:hover{
     position: relative;
@@ -358,10 +384,12 @@
 }
 
 #exam_txt_01{
-    position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;margin-top: 20px;
+    position: relative;font-size: 20px;color:#ffffff;margin-left: 50px;margin-top: 20px;    font-family: 'Passion One', cursive;
+
 }
 #exam_txt_02{
-    position: relative;margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px
+    position: relative;margin-right:50px;font-size: 26px;color:#33ffc2;margin-left: 30px;    font-family: 'Passion One', cursive;
+
 }
 
 .exam:hover{

@@ -1,8 +1,10 @@
 #fotter{
     margin-left: 5vw;
     margin-top: 5vw;
-    width: 70vw;
-    height: 50vh;
+   /* width: 70vw;
+    height: 50vh;*/
+    width: 90vw;
+    height: 20vh;
 }
 
 #your_name{
@@ -41,10 +43,6 @@
 
 #contact_me{
     /*border: 2px solid red;*/
-}
-#fotter{
-    width: 90vw;
-    height: 20vh;
 }
 
 .link_img{

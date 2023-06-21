@@ -1,5 +1,10 @@
 @media all and (max-width: 1300px) {
 
+    #abc{
+        overflow-x: hidden;
+
+    }
+
     #hambtn{
         display: none;
     }
@@ -9,12 +14,12 @@
 
     .navbar{
         position: fixed;
-        height: 7vh;
-        left: 0vw;
+        height: 5vh;
+        /*left: 0vw;*/
     }
     .navbar-brand{
         position: relative;
-        top: -22px;
+        top: -8px;
     }
     #why{
        display: none;
@@ -79,7 +84,8 @@
 
     #tab_size_about{
         /*color: #fd7e14;*/
-        color: #06fc00;
+        color: #aa01ff;
+        font-family: 'Creepster', cursive;
         position: relative;
         right: -75vw;
         width: 22vw;
@@ -116,7 +122,8 @@
 
     #tab_size_skills{
         display: block;
-        color: #03ea00;
+        color: #aa01ff;
+        font-family: 'Creepster', cursive;
         position: relative;
         right: -75vw;
         font-weight: bolder;
@@ -128,7 +135,8 @@
         text-shadow: 4px 4px 8px rgba(73,4,114,0.76);
     }
     #tab_size_projects{
-        color: #04dc00;
+        color: #aa01ff;
+        font-family: 'Creepster', cursive;
         position: relative;
         font-weight: bolder;
         right: -68vw;
@@ -141,7 +149,8 @@
     }
 
     #tab_size_sport{
-        color: #06ee00;
+        color: #aa01ff;
+        font-family: 'Creepster', cursive;
         margin-top: 8vh;
         position: relative;
         font-weight: bolder;
@@ -157,7 +166,8 @@
 
     #tab_size_contact{
         margin-top: 10vh;
-        color: #04dc00;
+        color: #aa01ff;
+        font-family: 'Creepster', cursive;
         position: relative;
         font-weight: bolder;
         right: -70vw;
@@ -292,13 +302,19 @@
     }
     #contact_me{
         /*border: 2px solid red;*/
-        height: 30vh;
+        height: 25vh;
+        position: relative;
+        left: -11vw;
     }
 
 
 }
-@media all and (min-width: 1300px) {
 
+@media all and (min-width: 1300px) {
+    #abc{
+        overflow-x: hidden;
+
+    }
    #nav_fonts{
        display: none;
    }
@@ -335,9 +351,11 @@
 
 }
 
-
 @media all and (max-width: 720px) {
+    #abc{
+        overflow-x: hidden;
 
+    }
     #nav_fonts{
         display: none;
     }
@@ -375,8 +393,8 @@
     }
 
     #tab_size_about {
-        color: #fd7e14;
-        color: #06fc00;
+        /*color: #fd7e14;*/
+        color: #aa01ff;
         position: relative;
         right: -69vw;
         width: 26vw;
@@ -408,11 +426,10 @@
         border-radius: 25px;
         font-size: .9rem;
     }
-
     #download_cv {
         position: relative;
-        left: 16.5vw;
-        top: -1.6vh;
+        left: 0.5vw;
+        top: 1.4vh;
         border-radius: 25px;
     }
 #btn_view_cv {
@@ -658,7 +675,7 @@
 
     #tab_size_skills {
         display: block;
-        color: #03ea00;
+        color: #aa01ff;
         position: relative;
         right: -70vw;
         font-weight: bolder;
@@ -671,7 +688,7 @@
     }
 
     #tab_size_projects {
-        color: #04dc00;
+        color: #aa01ff;
         position: relative;
         font-weight: bolder;
         right: -65vw;
@@ -685,7 +702,7 @@
 
 
     #tab_size_sport {
-        color: #06ee00;
+        color: #aa01ff;
         margin-top: 8vh;
         position: relative;
         font-weight: bolder;
@@ -789,7 +806,7 @@
 
     #tab_size_contact {
         margin-top: 10vh;
-        color: #04dc00;
+        color: #aa01ff;
         position: relative;
         font-weight: bolder;
         right: -64vw;
@@ -801,10 +818,95 @@
         display: block;
     }
 
-  
+
     .link_img {
         margin-left: 0vw;
 
+    }
+
+}
+
+@media all and (max-width: 1300px) {
+
+    #abc{
+        overflow-x: hidden;
+
+    }
+
+    #secer {
+        width: 29vw;
+        height: 29vh;
+        position: relative;
+        left: 33.1vw;
+        top: 3vw;
+    }
+}
+
+@media all and (max-width: 820px) {
+
+    #abc{
+        overflow-x: hidden;
+
+    }
+
+    #secer {
+        width: 37vw;
+        height: 29vh;
+        position: relative;
+        left: 26.1vw;
+        top: 3vw;
+    }
+}
+
+@media all and (max-width: 710px) {
+
+
+    #abc{
+        overflow-x: hidden;
+
+    }
+
+  /*  .e\&e{
+        position: relative;
+        left: 17vw;
+    }*/
+
+
+    #download_cv {
+        position: relative;
+        left: 0.5vw;
+        top: 1.4vh;
+        border-radius: 25px;
+    }
+
+
+    #fotter {
+        margin-left: 5vw;
+        margin-top: 5vw;
+        /* width: 70vw;
+         height: 50vh;*/
+        width: 54vw;
+        height: 20vh;
+    }
+
+}
+
+@media all and (max-width: 428px){
+
+    #fotter {
+        margin-left: 5vw;
+        margin-top: 5vw;
+       /* width: 70vw;
+        height: 50vh;*/
+        width: 54vw;
+        height: 20vh;
+    }
+
+    #download_cv {
+        position: relative;
+        left: 14.5vw;
+        top: -1.6vh;
+        border-radius: 25px;
     }
 
 }
