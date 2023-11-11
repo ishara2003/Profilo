@@ -856,6 +856,13 @@
         left: 26.1vw;
         top: 3vw;
     }
+
+    #download_cv {
+        position: relative;
+        left: 9.5vw;
+        top: -1vh;
+    }
+
 }
 
 @media all and (max-width: 710px) {
@@ -901,13 +908,26 @@
         width: 54vw;
         height: 20vh;
     }
-
+/*
     #download_cv {
         position: relative;
         left: 14.5vw;
         top: -1.6vh;
         border-radius: 25px;
+    }*/
+    #download_cv {
+        position: relative;
+        left: 16.5vw;
+        top: -1.5vh;
     }
-
 }
+@media (max-width: 1270px) {
+    #download_cv {
+        position: relative;
+        left: 0.5vw;
+        top: 1.5vh;
+    }
+}
+
+
 
