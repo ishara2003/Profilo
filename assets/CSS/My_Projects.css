@@ -61,7 +61,7 @@
 #web_contecnt{
     position: relative;
     width: 99vw;
-    height: 100%;
+    height: 120vh;
     display: none;
     /*border: 2px solid red;*/
 }
@@ -153,6 +153,19 @@ section>div:hover{
     left: -92vw;
 }
 
+.web_img_view_third_row{
+    position: relative;
+    width: 15vw;
+    /*bottom: 20vh;*/
+    height: 30vh;
+    margin-left: 8vw;
+    border-radius: 12rem;
+    /*bottom: 10vw;*/
+    border: 2px solid #7c0d0d;
+    bottom: -80vh;
+    left: -184vw;
+}
+
 
 #first_link{
     background-image: url("../images/web_links_imgs/Screenshot (80).png");
@@ -170,6 +183,40 @@ section>div:hover{
     bottom: -30vh;
 }
 
+#water_drop{
+    background-image: url("../images/web_links_imgs/img.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#grid{
+   background-image: url("../images/web_links_imgs/img_1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#absolut_position{
+    background-image: url("../images/web_links_imgs/img_5.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#img_slider{
+    background-image: url("../images/web_links_imgs/img_2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#circle_transition{
+    background-image: url("../images/web_links_imgs/img_3.png");
+    background-size: cover;
+    background-position: center;
+}
+#animation{
+    background-image: url("../images/web_links_imgs/img_4.png");
+    background-size: cover;
+    background-position: center;
+}
 
 #second_link{
     background-image: url("../images/web_links_imgs/Screenshot (81).png");
@@ -181,6 +228,12 @@ section>div:hover{
     background-image: url("../images/web_links_imgs/Screenshot (81).png");
     background-size:cover;
     background-position: left;
+}
+
+#fixed_cricle{
+    background-image: url("../images/web_links_imgs/img_6.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #theird_link{
